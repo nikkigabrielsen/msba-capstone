@@ -1,0 +1,110 @@
+TORICS - Sales Journal                   W2301/23/2020 08:16 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/23/2020 10:43 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42213 7    Regular                                                                                                                                                                                                                    
+D       7    54800-1440      HUDSON HOODY         L           1    0    55.00    55.00                .00        .00       .00      55.00      27.50    50       .00      .00      .00       55.00  MC/VISA            55.00            
+D ----------------------------------------------- 11:01 AM
+D 42214 7    Regular     265-2355 - Baker, DJ                                                                                                                                                                                           
+D       7    1015354         GYPSUM II MID        8           1    0   150.00   150.00                .00        .00       .00     150.00      78.19    48                                                                              
+D       7    FB/DISC         FREQ. BUYER DISCOUNT             0    1     0.00    31.14                .00        .00     31.14     -31.14       0.00   100                                                                              
+D       7    25970-BLST      W'S BETTER SWEATER J XL          1    0   149.00   149.00                .00        .00       .00     149.00      52.15    65                                                                              
+D                                            Totals           2    1                                  .00        .00     31.14     267.86     130.34    51       .00      .00      .00      267.86  MC/VISA           267.86            
+D ----------------------------------------------- 12:26 PM
+D 42215 7    Regular     945-2623 - Jen Thompson                                                                                                                                                                                        
+D       7    1021890         PRESIDIO             9           1    0   120.00   120.00                .00        .00       .00     120.00      57.00    53       .00      .00      .00      120.00  MC/VISA           120.00            
+D ----------------------------------------------- 02:50 PM
+D 42216 7    Regular                                                                                                                                                                                                                    
+D       7    PINNACLE        POWERSTEP PINNACLE   7           1    0    41.00    41.00                .00        .00       .00      41.00      17.55    57       .00      .00      .00       41.00  MC/VISA            41.00            
+D ----------------------------------------------- 02:52 PM
+D 42217 7    Regular     963-2354 - Mason, Tater                                                                                                                                                                                        
+D       7    EF1223          ALPHABOUNCE+ U       8.5         1    0   100.00   100.00                .00        .00       .00     100.00      52.80    47       .00      .00      .00      100.00  MC/VISA           100.00            
+D ----------------------------------------------- 04:27 PM
+D 42218 7    Regular                                                                                                                                                                                                                    
+D       7    CG5570          ALPHABOUNCE RC.2 M   10          1    0    90.00    90.00                .00        .00       .00      90.00      49.50    45                                                                              
+D       7    10920-BKMT      GALAXY LIGHTS        13.5        1    0    43.00    21.50     21.50      .00      21.50       .00      21.50      21.50     0                                                                              
+D       7    1017641         CHANDLER CNX C       12          1    0    55.00    55.00                .00        .00       .00      55.00      27.50    50                                                                              
+D       7    BB9144          PRO SPARK 2018 K     6.5         1    0    50.00    25.00     25.00      .00      25.00       .00      25.00      24.00     4                                                                              
+D                                            Totals           4    0                                  .00      46.50       .00     191.50     122.50    36       .00      .00      .00      191.50  MC/VISA           191.50            
+D ----------------------------------------------- 04:36 PM
+D 42219 7    Regular                                                                                                                                                                                                                    
+D       7    440545-1212     CORE LOW RIDER SHORT M           1    0    24.99    24.99                .00        .00       .00      24.99      13.44    46       .00      .00      .00       24.99  MC/VISA            24.99            
+D ----------------------------------------------- 05:19 PM
+D 42220 7    Regular                                                                                                                                                                                                                    
+D       7    COFH30754-MT    THE TALK LS FUNNEL   L           1    0    50.00    50.00                .00        .00       .00      50.00      22.50    55                                                                              
+D       7    COBS40404-MT    HALL OF FAME SHORT   L           1    0    26.00    26.00                .00        .00       .00      26.00      12.00    54                                                                              
+D                                            Totals           2    0                                  .00        .00       .00      76.00      34.50    55       .00      .00      .00       76.00  MC/VISA            76.00            
+D ----------------------------------------------- 06:50 PM
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/23/2020 10:43 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42221 7    Regular                                                                                                                                                                                                                    
+D       7    54800-1440      HUDSON HOODY         L           0    1    55.00    55.00                .00        .00     55.00     -55.00     -27.50    50                                                                              
+D                            03 - CORRECTION / ADJUST.                                                                                                                                                                                  
+D       7    54800-1440      HUDSON HOODY         L           1    0    55.00    27.50     27.50      .00      27.50       .00      27.50      27.50     0                                                                              
+D                                            Totals           1    1                                  .00      27.50     55.00     -27.50       0.00   100       .00      .00      .00      -27.50  MC/VISA           -27.50            
+D ----------------------------------------------- 08:14 PM
+D  
+D          S A L E S   T O T A L S                           14    2                                  .00      74.00     86.14     848.85     455.63    46       .00      .00      .00      848.85                                      
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                    848.85           848.85     Cash                     0.00
+D                              0.00             0.00     MC/VISA                848.85
+D S.O. Sale                    0.00             0.00     Less payouts             0.00
+D Layaway                      0.00             0.00     Drawer In   200.00
+D                  ================ ================     Drawer Out  200.00
+D Total Sales                848.85           848.85     Drawer Diff              0.00
+D                                                        Over/Short               0.00
+D Gift Cert. sold                               0.00                  ================
+D Payment/Account                               0.00     Cash Deposit           848.85
+D S.O. Deposit                                  0.00
+D Payment/Layaway                               0.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF--------------------- Return Summary ------------------
+D @@UONDescription                  Quantity           Dollars@@UOF
+D 03 - CORRECTION / ADJUST.           1             55.00                                                                                                                                                                               
+NP3
+T13
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/23/2020 10:43 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D @@COF@@BON--------------- Return Summary  (continued)------------@@BOF
+D @@UONDescription                  Quantity           Dollars@@UOF
+D *** Total of all returns            1             55.00                                                                                                                                                                               
+D @@COF
+D @@BON9 tickets printed@@BOF
+D @@BON9 tickets on file@@BOF
+NP4
+T14
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          7    JAKE                 01/23/2020 10:06     01/23/2020 20:15          10.15                                                                                                                               
+D                                                                             Store   1 Totals      10.15                                                                                                                               
+D  
+D @@COF
+D @@BON     1 of 1 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 0 seconds@@BOF

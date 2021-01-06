@@ -1,0 +1,122 @@
+TORICS - Sales Journal                   W2301/17/2020 08:06 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/17/2020 10:35 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42149 1    Regular     357-2210 - McIntosh, Scott                                                                                                                                                                                     
+D       1    1011432         PRESIDIO MJ          10          1    0   100.00    80.00     80.00      .00      20.00       .00      80.00      48.50    39       .00      .00      .00       80.00  MC/VISA            80.00            
+D ----------------------------------------------- 10:35 AM
+D 42150 1    Regular                                                                                                                                                                                                                    
+D       1    1017280         FLAT LIFESTYLE LACE              1    0     7.00     7.00                .00        .00       .00       7.00       3.50    50       .00      .00      .00        7.00  Cash                7.00            
+D ----------------------------------------------- 10:39 AM
+D 42151 1    Regular                                                                                                                                                                                                                    
+D       1    111033000       WALLY B SOX          10          1    0    60.00    60.00                .00        .00       .00      60.00      26.67    56       .00      .00      .00       60.00  Gift Cert.         50.00            
+D                                                                                                                                                                                                   Cash               10.00            
+D ----------------------------------------------- 11:04 AM
+D 42152 1    Regular                                                                                                                                                                                                                    
+D       1    VN0A38F7Q9B     CLASSIC SLIP ON      8.5         1    0    55.00    55.00                .00        .00       .00      55.00      31.50    43       .00      .00      .00       55.00  Gift Cert.         50.00            
+D                                                                                                                                                                                                   Cash               20.00            
+D ----------------------------------------------- 11:07 AM
+D 42153 1    Regular     945-0903 -                                                                                                                                                                                                     
+D       1    VN0A347VAPKK    SLIP ON PRO          4.5         1    0    60.00    60.00                .00        .00       .00      60.00      29.15    51       .00      .00      .00       60.00  MC/VISA            60.00            
+D ----------------------------------------------- 11:10 AM
+D 42154 1    Regular                                                                                                                                                                                                                    
+D       1    54LACES         54" LACES                        1    0     3.00     3.00                .00        .00       .00       3.00       0.85    72       .00      .00      .00        3.00  MC/VISA             3.00            
+D ----------------------------------------------- 12:28 PM
+D 42155 1    Regular                                                                                                                                                                                                                    
+D       1    1962W-011       ELLE                 10          1    0    85.00    68.00     68.00      .00      17.00       .00      68.00      40.38    41       .00      .00      .00       68.00  MC/VISA            68.00            
+D ----------------------------------------------- 01:56 PM
+D 42156 1    Regular                                                                                                                                                                                                                    
+D       1    5145738         AS MAX CUSHION CREW  L           1    0    18.00    13.60     13.60      .00       4.40       .00      13.60       9.00    34                                                                              
+D       1    5145738         AS MAX CUSHION CREW  M           6    0    18.00    14.40     14.40      .00      21.60       .00      86.40      54.00    38                                                                              
+D                                            Totals           7    0                                  .00      26.00       .00     100.00      63.00    37       .00      .00      .00      100.00  Cash              100.00            
+D ----------------------------------------------- 02:07 PM
+D 42157 1    Regular                                                                                                                                                                                                                    
+D       1    96V-001         JR YOGA PANT         L           1    0    22.99    11.50     11.50      .00      11.49       .00      11.50      11.50     0       .00      .00      .00       11.50  MC/VISA            11.50            
+D ----------------------------------------------- 03:11 PM
+D 42158 1    Regular                                                                                                                                                                                                                    
+D       1    CV3232          SID PANT WVN         M           1    0    50.00    42.00     42.00      .00       8.00       .00      42.00      15.00    64                                                                              
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/17/2020 10:35 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D       1    3245Y-001       WARM UP PANT         XL          0    1    32.00    32.00                .00        .00     32.00     -32.00     -15.00    53                                                                              
+D                            02 - SIZE EXCHANGE                                                                                                                                                                                         
+D       1    SSBB            RUBBER BASKETBALL                1    0    30.00    25.00     25.00      .00       5.00       .00      25.00      14.40    42                                                                              
+D       1    A99856          ULTIMATE ILL PO      S           1    0    55.00    55.00                .00        .00       .00      55.00      27.50    50                                                                              
+D                                            Totals           3    1                                  .00      13.00     32.00      90.00      41.90    53       .00      .00      .00       90.00  MC/VISA            90.00            
+D ----------------------------------------------- 03:48 PM
+D 42159 1    Regular                                                                                                                                                                                                                    
+D       1    300927-EB0      COURT GRAFFIK S      9.5         1    0    64.99    48.99     48.99      .00      16.00       .00      48.99      32.50    34       .00      .00      .00       48.99  MC/VISA            48.99            
+D ----------------------------------------------- 03:56 PM
+D 42160 1    Regular                                                                                                                                                                                                                    
+D       1    A99856          ULTIMATE ILL PO      S           0    1    55.00    55.00                .00        .00     55.00     -55.00     -27.50    50                                                                              
+D                            01 - CUST. DID NOT WANT                                                                                                                                                                                    
+D       1    AC3943          ESS COT FLC PO       S           1    0    55.00    55.00                .00        .00       .00      55.00      15.84    71                                                                              
+D                                            Totals           1    1                                  .00        .00     55.00        .00     -11.66     0       .00      .00      .00        0.00                                      
+D ----------------------------------------------- 05:28 PM
+D 42161 1    Regular                                                                                                                                                                                                                    
+D       1    440202-9090     VORTEX SHORTS        L           1    0    25.00    25.00                .00        .00       .00      25.00      13.72    45       .00      .00      .00       25.00  MC/VISA            25.00            
+D ----------------------------------------------- 05:52 PM
+D  
+D          S A L E S   T O T A L S                           21    2                                  .00     103.49     87.00     608.49     331.51    46       .00      .00      .00      608.49                                      
+NP3
+T13
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/17/2020 10:35 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                    608.49           608.49     Cash                   122.00
+D                              0.00             0.00     MC/VISA                386.49
+D S.O. Sale                    0.00             0.00     Less payouts             0.00
+D Layaway                      0.00             0.00     Drawer In   200.00
+D                  ================ ================     Drawer Out  200.00
+D Total Sales                608.49           608.49     Drawer Diff              0.00
+D                                                        Over/Short               0.00
+D Gift Cert. sold                               0.00                  ================
+D Payment/Account                               0.00     Cash Deposit           508.49
+D S.O. Deposit                                  0.00
+D Payment/Layaway                               0.00     Gift Cert.             100.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF--------------------- Return Summary ------------------
+D @@UONDescription                  Quantity           Dollars@@UOF
+D 01 - CUST. DID NOT WANT             1             55.00                                                                                                                                                                               
+D 02 - SIZE EXCHANGE                  1             32.00                                                                                                                                                                               
+D -------------------------------------------------------
+D *** Total of all returns            2             87.00                                                                                                                                                                               
+D @@COF
+D @@BON13 tickets printed@@BOF
+D @@BON13 tickets on file@@BOF
+NP4
+T14
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          1    RICK SEDAHL          01/17/2020 10:35     01/17/2020 18:00           7.42                                                                                             01/17/2020 20:00                  
+D                                                                             Store   1 Totals       7.42                                                                                                                               
+D  
+D @@COF
+D @@BON     1 of 1 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 0 seconds@@BOF

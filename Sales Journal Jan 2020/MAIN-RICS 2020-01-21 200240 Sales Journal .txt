@@ -1,0 +1,96 @@
+TORICS - Sales Journal                   W2301/21/2020 08:02 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/21/2020 10:09 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42196 7    Regular     265-9017 - Dolven, Gerry                                                                                                                                                                                       
+D       7    1202531B456     ADDICTION 13         9.5         1    0   130.00   130.00                .00        .00       .00     130.00      71.50    45                                                                              
+D       7    PINNACLE        POWERSTEP PINNACLE   6           1    0    41.00    41.00                .00        .00       .00      41.00      17.55    57                                                                              
+D                                            Totals           2    0                                  .00        .00       .00     171.00      89.05    48       .00      .00      .00      171.00  MC/VISA           171.00            
+D ----------------------------------------------- 11:23 AM
+D 42197 7    Regular                                                                                                                                                                                                                    
+D       7    SW0NP605001     M MERINO 250 BL BOTT L           2    0    95.00    80.00     80.00      .00      30.00       .00     160.00      91.74    43       .00      .00      .00      160.00  MC/VISA           160.00            
+D ----------------------------------------------- 11:55 AM
+D 42198 7    Regular                                                                                                                                                                                                                    
+D       7    EDJTJ03044-KVJ6 CRUISER JKT          L           1    0   200.00   199.95    199.95      .00       0.05       .00     199.95     105.00    47       .00      .00      .00      199.95  MC/VISA           199.95            
+D ----------------------------------------------- 12:37 PM
+D 42199 7    Regular     879-9125 - Stiffarm, Hillary                                                                                                                                                                                   
+D       7    72464I-009      BABY BOGS MAZE GEO   7           1    0    55.00    55.00                .00        .00       .00      55.00      27.80    49       .00      .00      .00       55.00  Cash               55.00            
+D ----------------------------------------------- 04:28 PM
+D 42200 7    Regular                                                                                                                                                                                                                    
+D       7    54LACES         54" LACES                        1    0     3.00     3.00                .00        .00       .00       3.00       0.85    72       .00      .00      .00        3.00  Cash                3.00            
+D ----------------------------------------------- 04:31 PM
+D 42201 7    Regular                                                                                                                                                                                                                    
+D       7    DB0694          CLOUDFOAM PURE       8.5         1    0    70.00    56.00     56.00      .00      14.00       .00      56.00      39.25    30       .00      .00      .00       56.00  MC/VISA            56.00            
+D ----------------------------------------------- 04:32 PM
+D 42202 7    Regular                                                                                                                                                                                                                    
+D       7    M037            ATHLETIC SHORT       XL   BLK    1    0     8.00     8.00                .00        .00       .00       8.00       4.06    49       .00      .00      .00        8.00  MC/VISA             8.00            
+D ----------------------------------------------- 04:48 PM
+D 42203 7    Regular                                                                                                                                                                                                                    
+D       7    440561-9090     VORTEX HYBRID        M           1    0    25.00    25.00                .00        .00       .00      25.00      13.75    45       .00      .00      .00       25.00  MC/VISA            25.00            
+D ----------------------------------------------- 05:18 PM
+D 42204 7    Regular     390-2171 - Carlson, Dustin                                                                                                                                                                                     
+D       7    EF1223          ALPHABOUNCE+ U       10.5        1    0   100.00   100.00                .00        .00       .00     100.00      52.80    47                                                                              
+D       7    FB/DISC         FREQ. BUYER DISCOUNT             0    1     0.00    31.80                .00        .00     31.80     -31.80       0.00   100                                                                              
+D                                            Totals           1    1                                  .00        .00     31.80      68.20      52.80    23       .00      .00      .00       68.20  MC/VISA            68.20            
+D ----------------------------------------------- 06:09 PM
+D 42205 7    Regular                                                                                                                                                                                                                    
+D       7    6120-11M        G2 COMPRESSION SOCK  XL          1    0    35.00    35.00                .00        .00       .00      35.00      16.35    53       .00      .00      .00       35.00  MC/VISA            35.00            
+D ----------------------------------------------- 06:37 PM
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/21/2020 10:09 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42206 7    Regular                                                                                                                                                                                                                    
+D       7    10047308        BLACK ON BLACK       758         1    0    34.99    34.99                .00        .00       .00      34.99      17.50    50       .00      .00      .00       34.99  Cash               50.00            
+D ----------------------------------------------- 07:30 PM
+D  
+D          S A L E S   T O T A L S                           13    1                                  .00      44.05     31.80     816.14     458.15    44       .00      .00      .00      816.14                                      
+D  
+D                   O V E R   /   S H O R T                                                                                                                                                                                  0.01       
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                    816.14           816.14     Cash                    92.99
+D                              0.00             0.00     MC/VISA                723.15
+D S.O. Sale                    0.00             0.00     Less payouts             0.00
+D Layaway                      0.00             0.00     Drawer In   200.00
+D                  ================ ================     Drawer Out  200.00
+D Total Sales                816.14           816.14     Drawer Diff              0.00
+D                                                        Over/Short               0.01
+D Gift Cert. sold                               0.00                  ================
+D Payment/Account                               0.00     Cash Deposit           816.15
+D S.O. Deposit                                  0.00
+D Payment/Layaway                               0.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF
+D @@BON11 tickets printed@@BOF
+D @@BON11 tickets on file@@BOF
+NP3
+T13
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          7    JAKE                 01/21/2020 10:00     01/21/2020 20:01          10.02                                                                                                                               
+D                                                                             Store   1 Totals      10.02                                                                                                                               
+D  
+D @@COF
+D @@BON     1 of 1 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 0 seconds@@BOF

@@ -1,0 +1,125 @@
+TORICS - Sales Journal                   W2301/24/2020 08:08 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/24/2020 10:15 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42222 7    Regular                                                                                                                                                                                                                    
+D       7    4509360295      HONOR                43          1    0   110.00    93.50     93.50      .00      16.50       .00      93.50      57.50    39       .00      .00      .00       93.50  MC/VISA            93.50            
+D ----------------------------------------------- 11:08 AM
+D 42223 7    Regular     395-4365 - Lamere, Leah                                                                                                                                                                                        
+D       7    COUJ30918BN-MT  KITTY F/Z JACKET     XL          1    0    65.00    65.00                .00        .00       .00      65.00      31.00    52                                                                              
+D       7    121410123       WENDY CHAMBRAY       7           1    0    55.00    55.00                .00        .00       .00      55.00      29.00    47                                                                              
+D                                            Totals           2    0                                  .00        .00       .00     120.00      60.00    50       .00      .00      .00      120.00  Cash              120.00            
+D ----------------------------------------------- 11:11 AM
+D 42224 7    Regular                                                                                                                                                                                                                    
+D       7    5143975         DEFENDER III SMALL               1    0    35.00    35.00                .00        .00       .00      35.00      17.50    50                                                                              
+D       7    GATOR           GATORADE BOTTLE                  1    0     5.00     5.00                .00        .00       .00       5.00       1.85    63                                                                              
+D                                            Totals           2    0                                  .00        .00       .00      40.00      19.35    52       .00      .00      .00       40.00  MC/VISA            40.00            
+D ----------------------------------------------- 11:36 AM
+D 42225 7    Regular     403-529-5056 - Jones, Joan                                                                                                                                                                                     
+D       7    MEMPLK-7431     EMPIRE LO WR         10          1    0    70.00    69.99     69.99      .00       0.01       .00      69.99      30.67    56                                                                              
+D       7    MSRUN-2132      STRUTT               10          1    0    81.99    80.00     80.00      .00       1.99       .00      80.00      41.11    49                                                                              
+D                                            Totals           2    0                                  .00       2.00       .00     149.99      71.78    52       .00      .00      .00      149.99  MC/VISA           149.99            
+D ----------------------------------------------- 11:56 AM
+D 42226 7    Regular                                                                                                                                                                                                                    
+D       7    121410500       WENDY                7           1    0    55.00    55.00                .00        .00       .00      55.00      27.50    50       .00      .00      .00       55.00  Gift Cert.         50.00            
+D                                                                                                                                                                                                   Cash                5.00            
+D ----------------------------------------------- 01:11 PM
+D 42227 7    Regular     399-4338 - Cochran, Constance                                                                                                                                                                                  
+D       7    J703Y-9090      SNAPDOWN 2           10.5        1    0    75.00    70.00     70.00      .00       5.00       .00      70.00      40.53    42       .00      .00      .00       70.00  MC/VISA            70.00            
+D ----------------------------------------------- 01:13 PM
+D 42228 7    Regular                                                                                                                                                                                                                    
+D       7    12050638        ONF19 SL RD          758         1    0    40.00    40.00                .00        .00       .00      40.00      20.00    50       .00      .00      .00       40.00  MC/VISA            40.00            
+D ----------------------------------------------- 01:45 PM
+D 42229 7    Regular     357-3850 - Tami Schoen                                                                                                                                                                                         
+D       7    JCH107488       CATALUNA             11          1    0   180.00   180.00                .00        .00       .00     180.00      92.00    49       .00      .00      .00      180.00  Check             180.00            
+D ----------------------------------------------- 02:02 PM
+D 42230 7    Regular                                                                                                                                                                                                                    
+D       7    20267L-NVLV     GLIMMER KICKS        12          1    0    47.00    47.00                .00        .00       .00      47.00      22.50    52                                                                              
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/24/2020 10:15 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D       7    20203N-MLT      POWER PETALS         7           1    0    39.00    19.50     19.50      .00      19.50       .00      19.50      18.50     5                                                                              
+D                                            Totals           2    0                                  .00      19.50       .00      66.50      41.00    38       .00      .00      .00       66.50  Cash               70.00            
+D ----------------------------------------------- 02:21 PM
+D 42231 7    Regular                                                                                                                                                                                                                    
+D       7    45LACES         45" LACES                        1    0     3.00     3.00                .00        .00       .00       3.00       0.80    73       .00      .00      .00        3.00  Cash                3.00            
+D ----------------------------------------------- 02:27 PM
+D 42232 7    Regular                                                                                                                                                                                                                    
+D       7    11403326        DIAMOND ERA CLASSIC  S/M         1    0    27.99    27.99                .00        .00       .00      27.99       8.00    71       .00      .00      .00       27.99  MC/VISA            27.99            
+D ----------------------------------------------- 03:05 PM
+D 42233 7    Regular     390-2210 - Erickson, Jeri                                                                                                                                                                                      
+D       7    WSPTLG1         WSPTV1               9           1    0    75.00    75.00                .00        .00       .00      75.00      41.25    45                                                                              
+D       7    FB/DISC         FREQ. BUYER DISCOUNT             0    1     0.00    47.50                .00        .00     47.50     -47.50       0.00   100                                                                              
+D                                            Totals           1    1                                  .00        .00     47.50      27.50      41.25   -50       .00      .00      .00       27.50  MC/VISA            27.50            
+D ----------------------------------------------- 04:03 PM
+D 42234 7    Regular                                                                                                                                                                                                                    
+D       7    9041-001        FLEECE PANT          XL          1    0    20.00    20.00                .00        .00       .00      20.00      10.00    50                                                                              
+D       7    EB710UM         GRIZ HEADBAND                    1    0    14.99    14.99                .00        .00       .00      14.99       7.00    53                                                                              
+D                                            Totals           2    0                                  .00        .00       .00      34.99      17.00    51       .00      .00      .00       34.99  Cash               40.00            
+D ----------------------------------------------- 04:30 PM
+D 42235 7    Regular                                                                                                                                                                                                                    
+D       7    7035103         NIKE ELITE 1.5       L           1    0    14.00    14.00                .00        .00       .00      14.00       9.00    36                                                                              
+D       7    5147422         CREATOR 365 CREW     L           1    0    18.00    18.00                .00        .00       .00      18.00       9.00    50                                                                              
+D                                            Totals           2    0                                  .00        .00       .00      32.00      18.00    44       .00      .00      .00       32.00  Cash               40.00            
+D ----------------------------------------------- 05:17 PM
+D 42236 7    Regular                                                                                                                                                                                                                    
+D       7    54LACES         54" LACES                        1    0     3.00     3.00                .00        .00       .00       3.00       0.85    72       .00      .00      .00        3.00  Cash                3.00            
+D ----------------------------------------------- 06:39 PM
+D  
+D          S A L E S   T O T A L S                           21    1                                  .00      43.00     47.50     943.47     515.56    45       .00      .00      .00      943.47                                      
+NP3
+T13
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/24/2020 10:15 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                    943.47           943.47     Cash                   264.49
+D                              0.00             0.00     Check                  180.00
+D S.O. Sale                    0.00             0.00     MC/VISA                448.98
+D Layaway                      0.00             0.00     Less payouts             0.00
+D                  ================ ================     Over/Short               0.00
+D Total Sales                943.47           943.47                  ================
+D                                                        Cash Deposit           893.47
+D Gift Cert. sold                               0.00
+D Payment/Account                               0.00     Gift Cert.              50.00
+D S.O. Deposit                                  0.00
+D Payment/Layaway                               0.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF
+D @@BON15 tickets printed@@BOF
+D @@BON15 tickets on file@@BOF
+NP4
+T14
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          7    JAKE                 01/24/2020 10:07     01/24/2020 20:00           9.88                                                                                             01/24/2020 20:05                  
+D                                                                             Store   1 Totals       9.88                                                                                                                               
+D  
+D @@COF
+D @@BON     1 of 1 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 0 seconds@@BOF

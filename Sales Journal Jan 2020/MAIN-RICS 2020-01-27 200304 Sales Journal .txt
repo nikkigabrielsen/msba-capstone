@@ -1,0 +1,90 @@
+TORICS - Sales Journal                   W2301/27/2020 08:03 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/27/2020 12:07 PM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42268 1    Regular                                                                                                                                                                                                                    
+D       1    S10415-1        GUIDE ISO            10          1    0   120.00    96.00     96.00      .00      24.00       .00      96.00      64.02    33                                                                              
+D       1    6125-18W        G2 COMPRESSION SOCK  L           1    0    35.00    35.00                .00        .00       .00      35.00      16.35    53                                                                              
+D                                            Totals           2    0                                  .00      24.00       .00     131.00      80.37    39       .00      .00      .00      131.00  MC/VISA           131.00            
+D ----------------------------------------------- 12:11 PM
+D 42269 1    Regular                                                                                                                                                                                                                    
+D       1    P600            6" BALL                          1    0     8.00     8.00                .00        .00       .00       8.00       3.25    59                                                                              
+D       1    COTS10255S-MT S PINTAIL TEE          M           1    0    24.00    24.00                .00        .00       .00      24.00      11.00    54                                                                              
+D       1    COFP10839HG-MTS PACO FLEECE PANT     S           1    0    40.00    40.00                .00        .00       .00      40.00      18.00    55                                                                              
+D       1    COFP10839HG-MTS PACO FLEECE PANT     XL          1    0    40.00    40.00                .00        .00       .00      40.00      18.00    55                                                                              
+D       1    OO9189-02       TWO FACE                         1    0   163.00   163.00                .00        .00       .00     163.00      81.60    50                                                                              
+D       1    SSS8            DOUBLE CHIEFS        S           1    0    35.00    35.00                .00        .00       .00      35.00      16.80    52                                                                              
+D       1    SSS19           BLACK FLOWERS        XXL         1    0    45.00    40.00     40.00      .00       5.00       .00      40.00      21.60    46                                                                              
+D                                            Totals           7    0                                  .00       5.00       .00     350.00     170.25    51       .00      .00      .00      350.00  Cash              350.00            
+D ----------------------------------------------- 12:13 PM
+D 42270 1    Regular     945-1603 -                                                                                                                                                                                                     
+D       1    S20350-2        GUIDE 10             11.5        1    0   120.00    96.00     96.00      .00      24.00       .00      96.00      66.00    31       .00      .00      .00       96.00  MC/VISA            96.00            
+D ----------------------------------------------- 03:02 PM
+D 42271 7    Regular                                                                                                                                                                                                                    
+D       7    1669W-221       BOSHIE               7           1    0    90.00    72.00     72.00      .00      18.00       .00      72.00      42.78    41       .00      .00      .00       72.00  MC/VISA            72.00            
+D ----------------------------------------------- 03:50 PM
+D 42272 7    Regular                                                                                                                                                                                                                    
+D       7    T6E3N-9390      EXCITE 4             8           1    0    70.00    70.00                .00        .00       .00      70.00      38.50    45       .00      .00      .00       70.00  Cash              100.00            
+D ----------------------------------------------- 04:49 PM
+D 42273 7    Regular     JAKE -                                           -  Ticket VOIDED  -  Ticket VOIDED                                                                                                                            
+D            *** No Sale ***                                                                                                                                                                  0.00  VOID                                
+D ----------------------------------------------- 07:13 PM
+D 42274 7    Pay/Account JAKE -                                                                                                                                                                                                         
+D       7                                                                                                                                                                                    99.96  Cash               99.96            
+D ----------------------------------------------- 07:15 PM
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/27/2020 12:07 PM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D  
+D          S A L E S   T O T A L S                           12    0                                  .00      71.00       .00     719.00     397.90    45       .00      .00      .00      818.96                                      
+D PAYOUTS  Cashier Desc
+D              1    Reebox                                                                                                                                                                                                  99.96       
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                    719.00           719.00     Cash                   519.96
+D                              0.00             0.00     MC/VISA                299.00
+D S.O. Sale                    0.00             0.00     Less payouts            99.96
+D Layaway                      0.00             0.00     Drawer In   200.00
+D                  ================ ================     Drawer Out  200.00
+D Total Sales                719.00           719.00     Drawer Diff              0.00
+D                                                        Over/Short               0.00
+D Gift Cert. sold                               0.00                  ================
+D Payment/Account                              99.96     Cash Deposit           719.00
+D S.O. Deposit                                  0.00
+D Payment/Layaway                               0.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                1
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF
+D @@BON7 tickets printed@@BOF
+D @@BON7 tickets on file@@BOF
+NP3
+T13
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          1    RICK SEDAHL          01/27/2020 12:11     01/27/2020 18:00           5.82                                                                                             01/27/2020 19:21                  
+D                          7    JAKE                 01/27/2020 14:49     01/27/2020 20:02           5.22                                                                                                                               
+D                                                                             Store   1 Totals      11.04                                                                                                                               
+D  
+D @@COF
+D @@BON     2 of 2 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 0 seconds@@BOF

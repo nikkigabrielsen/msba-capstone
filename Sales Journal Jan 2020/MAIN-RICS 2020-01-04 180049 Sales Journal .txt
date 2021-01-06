@@ -1,0 +1,142 @@
+TORICS - Sales Journal                   W2301/4/2020  06:00 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/04/2020 10:05 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 41973 1    Regular     353-2527 - Hoops, Richard                                                                                                                                                                                      
+D       1    EF0485          PRO VISION           11.5        1    0   100.00   100.00                .00        .00       .00     100.00      52.80    47                                                                              
+D       1    AQ9119-100      JUMPMAN Z            11.5        0    1   150.00   120.00    120.00      .00     -30.00    120.00    -120.00     -79.50    34                                                                              
+D                            01 - CUST. DID NOT WANT                                                                                                                                                                                    
+D                                            Totals           1    1                                  .00     -30.00    120.00     -20.00     -26.70   -34       .00      .00      .00      -20.00  Cash              -20.00            
+D ----------------------------------------------- 10:06 AM
+D 41974 1    Regular     262-0180 - Dennis, Alan                                                                                                                                                                                        
+D       1    4101000416-557  FADER LS             11          1    0    54.99    50.00     50.00      .00       4.99       .00      50.00      27.60    45       .00      .00      .00       50.00  Cash               50.00            
+D ----------------------------------------------- 10:29 AM
+D 41975 1    Regular                                                                                                                                                                                                                    
+D       1    480105-9090     LR6 KNEEPAD          M           1    0    26.00    26.00                .00        .00       .00      26.00      14.26    45                                                                              
+D       1    MISC            MISC ITEMS                       1    0     0.00     4.00                .00        .00       .00       4.00      32.99  -725                                                                              
+D       1    440561-9090     VORTEX HYBRID        M           1    0    25.00    25.00                .00        .00       .00      25.00      13.75    45                                                                              
+D                                            Totals           3    0                                  .00        .00       .00      55.00      61.00   -11       .00      .00      .00       55.00  Cash               50.00            
+D                                                                                                                                                                                                   Cash                5.00            
+D ----------------------------------------------- 10:31 AM
+D 41976 1    Regular                                                                                                                                                                                                                    
+D       1    BS0526          CON18 TR PNT         S           1    0    50.00    50.00                .00        .00       .00      50.00      24.00    52       .00      .00      .00       50.00  MC/VISA            50.00            
+D ----------------------------------------------- 11:07 AM
+D 41977 1    Regular                                                                                                                                                                                                                    
+D       1    OO9290-01       JAWBREAKER                       1    0   200.00   170.00    170.00      .00      30.00       .00     170.00     100.00    41                                                                              
+D       1    MISC            MISC ITEMS                       1    0     0.00    80.00                .00        .00       .00      80.00      32.99    59                                                                              
+D            Comment: replacement lens                                                                                                                                                                                                  
+D                                            Totals           2    0                                  .00      30.00       .00     250.00     132.99    47       .00      .00      .00      250.00  Cash              250.00            
+D ----------------------------------------------- 12:44 PM
+D 41978 1    Regular     265-3020 - Holden, Christy                                                                                                                                                                                     
+D       1    1015315         OAKRIDGE             11          1    0    95.00    95.00                .00        .00       .00      95.00      51.65    46       .00      .00      .00       95.00  MC/VISA            95.00            
+D ----------------------------------------------- 12:48 PM
+D 41979 1    Regular     262-4914 - Miller, Edna                                                                                                                                                                                        
+D       1    F97272          PRO NEXT 2019        11.5        1    0    80.00    80.00                .00        .00       .00      80.00      42.24    47       .00      .00      .00       80.00  MC/VISA            80.00            
+D ----------------------------------------------- 12:55 PM
+D 41980 7    Regular     301-1587 - Werk, Edward                                                                                                                                                                                        
+D       7    B75743          HOOPS MID 2.0 K      6.5         1    0    55.00    55.00                .00        .00       .00      55.00      26.99    51       .00      .00      .00       55.00  Cash               55.00            
+D ----------------------------------------------- 01:01 PM
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/04/2020 10:05 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 41981 7    Regular                                                                                                                                                                                                                    
+D       7    JC195549        WRIST WRAP                       1    0    10.00    10.00                .00        .00       .00      10.00       4.50    55       .00      .00      .00       10.00  Cash               20.00            
+D ----------------------------------------------- 01:42 PM
+D 41982 1    Regular     399-6826 - Fitch, Jennifer                                                                                                                                                                                     
+D       1    ADYS300442-DSD  HEATHROW V SE        8.5         1    0    75.00    75.00                .00        .00       .00      75.00      33.00    56       .00      .00      .00       75.00  Cash               75.00            
+D ----------------------------------------------- 01:58 PM
+D 41983 1    Regular                                                                                                                                                                                                                    
+D       1    BB9123          PRO ADVERSARY        5           1    0    65.00    65.00                .00        .00       .00      65.00      31.20    52       .00      .00      .00       65.00  MC/VISA            65.00            
+D ----------------------------------------------- 02:01 PM
+D 41984 1    Regular     357-2394 - Depriest, Heather                                                                                                                                                                                   
+D       1    MISC            MISC ITEMS                       1    0     0.00    10.00                .00        .00       .00      10.00      32.99  -230                                                                              
+D       1    76240-2873      W JENA JACKET        XL          0    1   200.00   140.00    140.00      .00     -60.00    140.00    -140.00    -100.00    29                                                                              
+D                            01 - CUST. DID NOT WANT                                                                                                                                                                                    
+D       1    MB816KIDS-P     KIDS BEANIE TAIL                 1    0    14.00    14.00                .00        .00       .00      14.00       6.75    52                                                                              
+D       1    84212-CPOR      NANO PUFF JACKET     XXL         1    0   199.00   160.00    160.00      .00      39.00       .00     160.00      99.50    38                                                                              
+D                                            Totals           3    1                                  .00     -21.00    140.00      44.00      39.24    11       .00      .00      .00       44.00  MC/VISA            44.00            
+D ----------------------------------------------- 02:31 PM
+D 41985 7    Regular     390-4250 - Houle,Tiffany                                                                                                                                                                                       
+D       1    C545N-9093      MATFLEX 5 GS         1           1    0    50.00    50.00                .00        .00       .00      50.00      24.18    52       .00      .00      .00       50.00  MC/VISA            50.00            
+D ----------------------------------------------- 02:54 PM
+D 41986 1    Regular     262-7786 - Tilleman, Deeann                                                                                                                                                                                    
+D       1    DV5206          FLEXAGON FORCE       11.5        1    0    60.00    60.00                .00        .00       .00      60.00      27.48    54       .00      .00      .00       60.00  MC/VISA            60.00            
+D ----------------------------------------------- 03:50 PM
+D 41987 7    Regular                                                                                                                                                                                                                    
+D       7    C709N-400       CONTEND 4 PS         13          1    0    55.00    27.50     27.50      .00      27.50       .00      27.50      17.88    35                                                                              
+D       7    1014A006-024    GT 1000 PS           13          1    0    60.00    60.00                .00        .00       .00      60.00      29.39    51                                                                              
+D       7    SW0SW524557     W TRADITIONAL SNOW   M           1    0    24.00    24.00                .00        .00       .00      24.00       9.90    59                                                                              
+D       7    SW0SW793557     POPCORN CABLE        M           1    0    23.00    22.50     22.50      .00       0.50       .00      22.50       9.48    58                                                                              
+D                                            Totals           4    0                                  .00      28.00       .00     134.00      66.65    50       .00      .00      .00      134.00  MC/VISA           134.00            
+D ----------------------------------------------- 04:57 PM
+D 41988 7    Regular     390-0378 - Olson, Sherril                                                                                                                                                                                      
+D       7    111094900       WALLY L              8           1    0    55.00    46.75     46.75      .00       8.25       .00      46.75      28.00    40       .00      .00      .00       46.75  MC/VISA            46.75            
+D ----------------------------------------------- 05:29 PM
+NP3
+T13
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/04/2020 10:05 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D  
+D          S A L E S   T O T A L S                           24    2                                  .00      20.24    260.00    1099.75     594.02    46       .00      .00      .00     1099.75                                      
+D  
+D                   O V E R   /   S H O R T                                                                                                                                                                                 20.00       
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                  1,099.75         1,099.75     Cash                   475.00
+D                              0.00             0.00     MC/VISA                624.75
+D S.O. Sale                    0.00             0.00     Less payouts             0.00
+D Layaway                      0.00             0.00     Drawer In   200.00
+D                  ================ ================     Drawer Out  200.00
+D Total Sales              1,099.75         1,099.75     Drawer Diff              0.00
+D                                                        Over/Short              20.00
+D Gift Cert. sold                               0.00                  ================
+D Payment/Account                               0.00     Cash Deposit         1,119.75
+D S.O. Deposit                                  0.00
+D Payment/Layaway                               0.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF--------------------- Return Summary ------------------
+D @@UONDescription                  Quantity           Dollars@@UOF
+D 01 - CUST. DID NOT WANT             2            260.00                                                                                                                                                                               
+D -------------------------------------------------------
+D *** Total of all returns            2            260.00                                                                                                                                                                               
+D @@COF
+D @@BON16 tickets printed@@BOF
+D @@BON16 tickets on file@@BOF
+NP4
+T14
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          1    RICK SEDAHL          01/04/2020 10:06     01/04/2020 14:00           3.90                                                                                             01/04/2020 14:49                  
+D                          1    RICK SEDAHL          01/04/2020 15:50     01/04/2020 16:00            .17                                                                                             01/04/2020 16:17                  
+D                          7    JAKE                 01/04/2020 12:57     01/04/2020 15:17           2.33                                                                                             01/04/2020 15:37                  
+D                          7    JAKE                 01/04/2020 16:17     01/04/2020 18:00           1.72                                                                                                                               
+D                                                                             Store   1 Totals       8.12                                                                                                                               
+D  
+D @@COF
+D @@BON     4 of 4 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 0 seconds@@BOF

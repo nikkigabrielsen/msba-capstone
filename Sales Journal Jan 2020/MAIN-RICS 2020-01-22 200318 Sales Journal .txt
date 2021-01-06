@@ -1,0 +1,87 @@
+TORICS - Sales Journal                   W2301/22/2020 08:03 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/22/2020 11:16 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42207 7    Regular                                                                                                                                                                                                                    
+D       7    1021644         THE 59 II            10.5        1    0   150.00   150.00                .00        .00       .00     150.00      75.25    50                                                                              
+D       7    80407-HTG       EVOLUTION SHORT SLV  L           1    0    39.99    10.00     10.00      .00      29.99       .00      10.00      20.00  -100                                                                              
+D                                            Totals           2    0                                  .00      29.99       .00     160.00      95.25    40       .00      .00      .00      160.00  MC/VISA           160.00            
+D ----------------------------------------------- 11:16 AM
+D 42208 7    Regular                                                                                                                                                                                                                    
+D       7    RB2132-622/30   NEW WAYFARER                     1    0   168.00   168.00                .00        .00       .00     168.00      82.50    51                                                                              
+D       7    UT01455         PREMIER JOGGERS      L           1    0    50.00    50.00                .00        .00       .00      50.00      25.00    50                                                                              
+D       7    CZ1297          3G SPEED SHORT       L           1    0    28.00    28.00                .00        .00       .00      28.00      13.50    52                                                                              
+D       7    MISC            MISC ITEMS                       1    0     0.00    28.00                .00        .00       .00      28.00      32.99   -18                                                                              
+D       7    CN5656          CROSSFIT NANO 8      10          1    0   130.00    76.00     76.00      .00      54.00       .00      76.00      54.98    28                                                                              
+D                                            Totals           5    0                                  .00      54.00       .00     350.00     208.97    40       .00      .00      .00      350.00  MC/VISA           350.00            
+D ----------------------------------------------- 11:32 AM
+D 42209 7    Regular                                                                                                                                                                                                                    
+D       7    BL3-BI          BUFFALO CHECK SHERPA             1    0    54.00    44.00     44.00      .00      10.00       .00      44.00      27.00    39       .00      .00      .00       44.00  MC/VISA            44.00            
+D ----------------------------------------------- 11:51 AM
+D 42210 7    Regular     265-2044 - Huestis, Trevin                                                                                                                                                                                     
+D       7    MX624WN2        624                  10.5 4E     1    0    75.00    75.00                .00        .00       .00      75.00      45.40    39                                                                              
+D       7    FB/DISC         FREQ. BUYER DISCOUNT             0    1     0.00    44.80                .00        .00     44.80     -44.80       0.00   100                                                                              
+D                                            Totals           1    1                                  .00        .00     44.80      30.20      45.40   -50       .00      .00      .00       30.20  Cash               30.20            
+D ----------------------------------------------- 12:54 PM
+D 42211 7    Regular     265-2145 - Clara Litzinger                                                                                                                                                                                     
+D       7    VN000EYEBKA     CLASSIC SLIP ON      7           1    0    50.00    50.00                .00        .00       .00      50.00      29.00    42       .00      .00      .00       50.00  MC/VISA            50.00            
+D ----------------------------------------------- 03:25 PM
+D 42212 7    Regular     390-2109 - Nystrom, Brock                                                                                                                                                                                      
+D       7    UT01455         PREMIER JOGGERS      S           1    0    50.00    50.00                .00        .00       .00      50.00      25.00    50                                                                              
+D       7    VN0A38G1VMO     OLD SKOOL            9           1    0    65.00    65.00                .00        .00       .00      65.00      36.50    44                                                                              
+D       7    39539-BLK       P-6 LOGO UPRISAL HD  S           1    0    79.00    75.00     75.00      .00       4.00       .00      75.00      39.50    47                                                                              
+D                                            Totals           3    0                                  .00       4.00       .00     190.00     101.00    47       .00      .00      .00      190.00  MC/VISA           190.00            
+D ----------------------------------------------- 06:00 PM
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/22/2020 11:16 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D  
+D          S A L E S   T O T A L S                           13    1                                  .00      97.99     44.80     824.20     506.62    39       .00      .00      .00      824.20                                      
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                    824.20           824.20     Cash                    30.20
+D                              0.00             0.00     MC/VISA                794.00
+D S.O. Sale                    0.00             0.00     Less payouts             0.00
+D Layaway                      0.00             0.00     Drawer In   200.00
+D                  ================ ================     Drawer Out  200.00
+D Total Sales                824.20           824.20     Drawer Diff              0.00
+D                                                        Over/Short               0.00
+D Gift Cert. sold                               0.00                  ================
+D Payment/Account                               0.00     Cash Deposit           824.20
+D S.O. Deposit                                  0.00
+D Payment/Layaway                               0.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF
+D @@BON6 tickets printed@@BOF
+D @@BON6 tickets on file@@BOF
+NP3
+T13
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          7    JAKE                 01/22/2020 10:04     01/22/2020 20:02           9.97                                                                                                                               
+D                                                                             Store   1 Totals       9.97                                                                                                                               
+D  
+D @@COF
+D @@BON     1 of 1 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 0 seconds@@BOF

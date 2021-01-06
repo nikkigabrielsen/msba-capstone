@@ -1,0 +1,155 @@
+TORICS - Sales Journal                   W2301/16/2020 08:08 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/16/2020 10:10 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42141 7    Regular                                                                                                                                                                                                                    
+D       7    1011432         PRESIDIO MJ          8           1    0   100.00    80.00     80.00      .00      20.00       .00      80.00      48.50    39       .00      .00      .00       80.00  Cash               80.00            
+D ----------------------------------------------- 10:35 AM
+D 42142 7    Regular                                                                                                                                                                                                                    
+D       7    97780           SHOE CLEANER                     1    0     6.00     6.00                .00        .00       .00       6.00       2.62    56       .00      .00      .00        6.00  Cash               20.00            
+D ----------------------------------------------- 11:03 AM
+D 42143 7    Regular     390-6433 - Gaskill, Kelly                                                                                                                                                                                      
+D       7    VN0A347VSYE     SLIP ON PRO          7           0    1    60.00    51.00     51.00      .00      -9.00     51.00     -51.00     -34.00    33                                                                              
+D                            01 - CUST. DID NOT WANT                                                                                                                                                                                    
+D       7    VN0A347V-APK    SLIP ON PRO          5.5         1    0    60.00    51.00     51.00      .00       9.00       .00      51.00      29.62    42                                                                              
+D                                            Totals           1    1                                  .00        .00     51.00        .00      -4.38     0       .00      .00      .00        0.00                                      
+D ----------------------------------------------- 12:43 PM
+D 42144 7    Regular                                                                                                                                                                                                                    
+D       7    121704900       WENDY L              7           1    0    55.00    55.00                .00        .00       .00      55.00      27.98    49       .00      .00      .00       55.00  MC/VISA            55.00            
+D ----------------------------------------------- 12:44 PM
+D 42145 7    Regular                                                                                                                                                                                                                    
+D       1    610W-205        EMMA                 9           1    0    84.99    64.00     64.00      .00      20.99       .00      64.00      34.19    47       .00      .00      .00       64.00  Cash               65.00            
+D ----------------------------------------------- 03:30 PM
+D 42146 7    Regular     301-1362 - Velazquez, Eduardo                                                                                                                                                                                  
+D       1    VN0A38G1VMO     OLD SKOOL            12          1    0    65.00    65.00                .00        .00       .00      65.00      36.50    44       .00      .00      .00       65.00  MC/VISA            65.00            
+D ----------------------------------------------- 04:46 PM
+D 42147 1    Regular                                                                                                                                                                                                                    
+D       1    34673-BCW       BETTER SWEATER GLOVE S           1    0    49.00    40.00     40.00      .00       9.00       .00      40.00      24.50    39       .00      .00      .00       40.00  MC/VISA            40.00            
+D ----------------------------------------------- 05:25 PM
+D 42148 1    Regular     EBAY -                                                                                                                                                                                                         
+D       7    K16VWSSLWG      16OZ WIDE INSULATED              1    0    27.95     8.39      8.39      .00      19.56       .00       8.39      14.00   -67                                                                              
+D       7    K16VWSSL-DS     16OZ WIDE INSULATED              1    0    27.95     8.39      8.39      .00      19.56       .00       8.39      14.00   -67                                                                              
+D       7    K20VWSSL-VG     20oz KANTEEN WIDE                1    0    29.95     8.99      8.99      .00      20.96       .00       8.99      15.00   -67                                                                              
+D       7    K16VWSSL-RP     16OZ WIDE INSULATED              1    0    27.95     8.39      8.39      .00      19.56       .00       8.39      14.00   -67                                                                              
+D       7    K16VWSSL-VG     16OZ WIDE INSULATED              1    0    27.95     8.39      8.39      .00      19.56       .00       8.39      14.00   -67                                                                              
+D       7    K16VWSSL-DS     16OZ WIDE INSULATED              1    0    27.95     8.39      8.39      .00      19.56       .00       8.39      14.00   -67                                                                              
+D       7    K16VWSSLWG      16OZ WIDE INSULATED              2    0    27.95     8.39      8.39      .00      39.12       .00      16.78      28.00   -67                                                                              
+D       7    K16VWSSL-RP     16OZ WIDE INSULATED              1    0    27.95     8.39      8.39      .00      19.56       .00       8.39      14.00   -67                                                                              
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/16/2020 10:10 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D       7    907973-006      JUMPMAN PRO          6           1    0   110.00    33.00     33.00      .00      77.00       .00      33.00      58.30   -77                                                                              
+D       7    554725-415      JORDAN 1 MID BG      6           1    0    85.00    25.50     25.50      .00      59.50       .00      25.50      42.50   -67                                                                              
+D       7    554725-032      AIR JORDAN 1 MID     6           1    0    85.00    25.50     25.50      .00      59.50       .00      25.50      44.65   -75                                                                              
+D       7    554725-022      AIR JORDAN 1 MID     6           1    0    85.00    25.50     25.50      .00      59.50       .00      25.50      42.50   -67                                                                              
+D       7    D67313          VARISOL K            12          1    0    24.99     7.50      7.50      .00      17.49       .00       7.50      10.80   -44                                                                              
+D       7    VN0A347V-APK    SLIP ON PRO          9.5         6    0    60.00    18.00     18.00      .00     252.00       .00     108.00     177.72   -65                                                                              
+D       7    J93813          ZIGNANO FLY          12          1    0    89.99    36.00     36.00      .00      53.99       .00      36.00      49.50   -38                                                                              
+D       7    J93813          ZIGNANO FLY          12.5        1    0    89.99    36.00     36.00      .00      53.99       .00      36.00      49.50   -38                                                                              
+D       7    654279F         CTAS HIGH STREET HI  1.5         1    0    44.99    18.00     18.00      .00      26.99       .00      18.00      22.31   -24                                                                              
+D       7    654279F         CTAS HIGH STREET HI  1           1    0    44.99    18.00     18.00      .00      26.99       .00      18.00      22.31   -24                                                                              
+D       7    654279F         CTAS HIGH STREET HI  12.5        1    0    44.99     2.89      2.89      .00      42.10       .00       2.89      22.31  -672                                                                              
+D       7    654279F         CTAS HIGH STREET HI  12          1    0    44.99    18.00     18.00      .00      26.99       .00      18.00      22.31   -24                                                                              
+D       1    820249-005      PENNY                6           1    0   130.00    52.00     52.00      .00      78.00       .00      52.00      68.90   -33                                                                              
+D       1    654279F         CTAS HIGH STREET HI  2           1    0    44.99    18.00     18.00      .00      26.99       .00      18.00      22.31   -24                                                                              
+D       1    355566F         CTAS HI              1.5         1    0    35.00    14.00     14.00      .00      21.00       .00      14.00      17.50   -25                                                                              
+D       1    705160-106      FLIGHT ORIGIN 2 GS   6.5         1    0    90.00    36.00     36.00      .00      54.00       .00      36.00      45.00   -25                                                                              
+D       1    355566F         CTAS HI              2           1    0    35.00    14.00     14.00      .00      21.00       .00      14.00      17.50   -25                                                                              
+D       1    355573F         CTAS OX              1.5         1    0    35.00    14.00     14.00      .00      21.00       .00      14.00      17.50   -25                                                                              
+D       1    3J231           CHUCK TAYLOR         11.5        1    0    35.00    14.00     14.00      .00      21.00       .00      14.00      17.27   -23                                                                              
+D       1    3J231           CHUCK TAYLOR         11.5        1    0    35.00    14.00     14.00      .00      21.00       .00      14.00      17.27   -23                                                                              
+D       1    654279F         CTAS HIGH STREET HI  11.5        1    0    44.99    18.00     18.00      .00      26.99       .00      18.00      22.31   -24                                                                              
+D       1    355566F         CTAS HI              10.5        1    0    35.00    14.00     14.00      .00      21.00       .00      14.00      17.50   -25                                                                              
+D       1    355573F         CTAS OX              13          1    0    35.00    14.00     14.00      .00      21.00       .00      14.00      17.50   -25                                                                              
+D       1    355573F         CTAS OX              13.5        1    0    35.00    14.00     14.00      .00      21.00       .00      14.00      17.50   -25                                                                              
+D       1    654279F         CTAS HIGH STREET HI  13          1    0    44.99    18.00     18.00      .00      26.99       .00      18.00      22.31   -24                                                                              
+D       1    3J231           CHUCK TAYLOR         10.5        1    0    35.00    14.00     14.00      .00      21.00       .00      14.00      17.27   -23                                                                              
+D       7    T799N-4840      KAYANO 24            10          1    0   160.00    40.00     40.00      .00     120.00       .00      40.00      83.60  -109                                                                              
+D       1    1103161D466     GHOST 12             10          1    0   130.00    52.00     52.00      .00      78.00       .00      52.00      73.00   -40                                                                              
+D       1    S10355-12       FREEDOM ISO          8           1    0   160.00    64.00     64.00      .00      96.00       .00      64.00      88.00   -38                                                                              
+D       1    S10355-3        FREEDOM ISO          9           1    0   160.00    64.00     64.00      .00      96.00       .00      64.00      75.69   -18                                                                              
+D       1    S10355-3        FREEDOM ISO          9.5         1    0   160.00    64.00     64.00      .00      96.00       .00      64.00      75.69   -18                                                                              
+D       1    S20355-3        FREEDOM ISO          12          1    0   160.00    64.00     64.00      .00      96.00       .00      64.00      88.00   -38                                                                              
+D       7    S20355-3        FREEDOM ISO          10          1    0   160.00    16.00     16.00      .00     144.00       .00      16.00      88.00  -450                                                                              
+NP3
+T13
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/16/2020 10:10 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D       7    S20355-3        FREEDOM ISO          11.5        1    0   160.00    16.00     16.00      .00     144.00       .00      16.00      88.00  -450                                                                              
+D       7    1202661B964     LAUNCH 5             7.5         1    0   100.00    10.00     10.00      .00      90.00       .00      10.00      44.00  -340                                                                              
+D       7    1202661B003     LAUNCH 5             7           1    0   100.00    10.00     10.00      .00      90.00       .00      10.00      55.00  -450                                                                              
+D       7    1202661B964     LAUNCH 5             7           1    0   100.00    10.00     10.00      .00      90.00       .00      10.00      44.00  -340                                                                              
+D       7    1202061B486     LAUNCH 3             11          1    0    99.99    10.00     10.00      .00      89.99       .00      10.00      55.00  -450                                                                              
+D       7    S10355-12       FREEDOM ISO          10          1    0   160.00    16.00     16.00      .00     144.00       .00      16.00      88.00  -450                                                                              
+D       7    T799N-4840      KAYANO 24            8           1    0   160.00    16.00     16.00      .00     144.00       .00      16.00      83.60  -423                                                                              
+D       1    1103161D466     GHOST 12             11          1    0   130.00    50.00     50.00      .00      80.00       .00      50.00      73.00   -46                                                                              
+D                                            Totals          55    0                                  .00    2933.44       .00    1200.00    2131.93   -78       .00      .00      .00     1200.00  House Charge     1200.00            
+D ----------------------------------------------- 06:03 PM
+D  
+D          S A L E S   T O T A L S                           62    1                                  .00    2983.43     51.00    1510.00    2301.84   -52       .00      .00      .00     1510.00                                      
+NP4
+T14
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/16/2020 10:10 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                  1,510.00         1,510.00     Cash                   150.00
+D                              0.00             0.00     MC/VISA                160.00
+D S.O. Sale                    0.00             0.00     Less payouts             0.00
+D Layaway                      0.00             0.00     Drawer In   200.00
+D                  ================ ================     Drawer Out  200.00
+D Total Sales              1,510.00         1,510.00     Drawer Diff              0.00
+D                                                        Over/Short               0.00
+D Gift Cert. sold                               0.00                  ================
+D Payment/Account                               0.00     Cash Deposit           310.00
+D S.O. Deposit                                  0.00
+D Payment/Layaway                               0.00     House Charge         1,200.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF--------------------- Return Summary ------------------
+D @@UONDescription                  Quantity           Dollars@@UOF
+D 01 - CUST. DID NOT WANT             1             51.00                                                                                                                                                                               
+D -------------------------------------------------------
+D *** Total of all returns            1             51.00                                                                                                                                                                               
+D @@COF
+D @@BON8 tickets printed@@BOF
+D @@BON8 tickets on file@@BOF
+NP5
+T15
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          1    RICK SEDAHL          01/16/2020 17:25     01/16/2020 20:00           2.58                                                                                             01/16/2020 20:02                  
+D                          7    JAKE                 01/16/2020 10:09     01/16/2020 17:11           7.03                                                                                                                               
+D                                                                             Store   1 Totals       9.61                                                                                                                               
+D  
+D @@COF
+D @@BON     2 of 2 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 1 second@@BOF

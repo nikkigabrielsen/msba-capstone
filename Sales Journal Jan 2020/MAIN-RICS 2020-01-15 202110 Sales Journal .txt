@@ -1,0 +1,120 @@
+TORICS - Sales Journal                   W2301/15/2020 08:21 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/15/2020 10:10 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42129 1    Regular     390-3889 - Steinmetz, Charlie                                                                                                                                                                                  
+D       1    EF1223          ALPHABOUNCE+ U       6           1    0   100.00   100.00                .00        .00       .00     100.00      52.80    47                                                                              
+D       1    FB/DISC         FREQ. BUYER DISCOUNT             0    1     0.00    62.50                .00        .00     62.50     -62.50       0.00   100                                                                              
+D                                            Totals           1    1                                  .00        .00     62.50      37.50      52.80   -41       .00      .00      .00       37.50  MC/VISA            37.50            
+D ----------------------------------------------- 10:53 AM
+D 42130 1    Regular     228-4241 - Tryan, Jamie                                                                                                                                                                                        
+D       1    1102441D016     LAUNCH 4             9.5         1    0   100.00    90.00     90.00      .00      10.00       .00      90.00      55.00    39       .00      .00      .00       90.00  MC/VISA            90.00            
+D ----------------------------------------------- 11:07 AM
+D 42131 1    Pay/Account RICK -                                                                                                                                                                                                         
+D       1                                                                                                                                                                                    98.90  Cash               98.90            
+D ----------------------------------------------- 12:07 PM
+D 42132 1    Regular     352-3073 - Morsette, Patty                                                                                                                                                                                     
+D       1    VN0A347V-WWW    SLIP ON PRO          8.5         1    0    60.00    60.00                .00        .00       .00      60.00      29.62    51       .00      .00      .00       60.00  MC/VISA            60.00            
+D ----------------------------------------------- 01:25 PM
+D 42133 1    Regular                                                                                                                                                                                                                    
+D       1    20159-4         PROGRID KINVARA TR   10          1    0    99.99    69.99     69.99      .00      30.00       .00      69.99      55.00    21       .00      .00      .00       69.99  MC/VISA            69.99            
+D ----------------------------------------------- 02:32 PM
+D 42134 1    Regular     265-4005 - Lenhardt, Bryan                                                                                                                                                                                     
+D       1    E08603-ICEHAWKS LINUS HOODIE         M           1    0    55.00    27.50     27.50      .00      27.50       .00      27.50      28.17    -2                                                                              
+D       1    1012A457-100    GEL-KAYANO 26        11          1    0   160.00   150.00    150.00      .00      10.00       .00     150.00      85.36    43                                                                              
+D                                            Totals           2    0                                  .00      37.50       .00     177.50     113.53    36       .00      .00      .00      177.50  MC/VISA           177.50            
+D ----------------------------------------------- 03:03 PM
+D 42135 1    Regular                                                                                                                                                                                                                    
+D       1    A009013LS       FROGSKIN LENS                    1    0    60.00    50.00     50.00      .00      10.00       .00      50.00      30.00    40                                                                              
+D       1    A009290LS       JAWBREAKER LENS                  1    0    80.00    80.00                .00        .00       .00      80.00      40.00    50                                                                              
+D       1    MISC            MISC ITEMS                       0    1     0.00   130.00                .00        .00    130.00    -130.00     -32.99    75                                                                              
+D                            03 - CORRECTION / ADJUST.                                                                                                                                                                                  
+D                                            Totals           2    1                                  .00      10.00    130.00        .00      37.01     0       .00      .00      .00        0.00                                      
+D ----------------------------------------------- 03:34 PM
+D 42136 1    Regular     408-658-5303 -                                                                                                                                                                                                 
+D       1    1017715         TARGHEE EXP MID WP   8           1    0   145.00   123.25    123.25      .00      21.75       .00     123.25      71.69    42       .00      .00      .00      123.25  MC/VISA           123.25            
+D ----------------------------------------------- 04:40 PM
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/15/2020 10:10 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42137 1    Regular     406-301-2778 - Cliff, Tonia                                                                                                                                                                                    
+D       1    VN0A4BV7XKM     UA SK8 HI MTE        9           1    0    85.00    85.00                .00        .00       .00      85.00      44.90    47       .00      .00      .00       85.00  Cash              100.00            
+D ----------------------------------------------- 04:51 PM
+D 42138 1    Regular                                                                                                                                                                                                                    
+D       1    NECKLACE        BRAIDED NECKLACE                 1    0    10.00    10.00                .00        .00       .00      10.00       4.00    60       .00      .00      .00       10.00  Cash               10.00            
+D ----------------------------------------------- 04:52 PM
+D 42139 1    Regular                                                                                                                                                                                                                    
+D       7    3245Y-001       WARM UP PANT         L           0    1    32.00    32.00                .00        .00     32.00     -32.00     -15.00    53                                                                              
+D                            02 - SIZE EXCHANGE                                                                                                                                                                                         
+D       7    3245Y-001       WARM UP PANT         XL          1    0    32.00    32.00                .00        .00       .00      32.00      15.00    53                                                                              
+D                                            Totals           1    1                                  .00        .00     32.00        .00       0.00     0       .00      .00      .00        0.00                                      
+D ----------------------------------------------- 05:28 PM
+D 42140 1    Regular     344-3439 - Strauser, Morgan                                                                                                                                                                                    
+D       1    20225L-PKMT     TWILITES ZEBRA       2.5         1    0    50.00    50.00                .00        .00       .00      50.00      25.00    50       .00      .00      .00       50.00  MC/VISA            50.00            
+D ----------------------------------------------- 05:43 PM
+D  
+D          S A L E S   T O T A L S                           13    3                                  .00     109.25    224.50     703.24     488.55    31       .00      .00      .00      802.14                                      
+D PAYOUTS  Cashier Desc
+D              1    Store Supplies and Decorations                                                                                                                                                                          98.90       
+NP3
+T13
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/15/2020 10:10 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                    703.24           703.24     Cash                   193.90
+D                              0.00             0.00     MC/VISA                608.24
+D S.O. Sale                    0.00             0.00     Less payouts            98.90
+D Layaway                      0.00             0.00     Drawer In   200.00
+D                  ================ ================     Drawer Out  200.00
+D Total Sales                703.24           703.24     Drawer Diff              0.00
+D                                                        Over/Short               0.00
+D Gift Cert. sold                               0.00                  ================
+D Payment/Account                              98.90     Cash Deposit           703.24
+D S.O. Deposit                                  0.00
+D Payment/Layaway                               0.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF--------------------- Return Summary ------------------
+D @@UONDescription                  Quantity           Dollars@@UOF
+D 02 - SIZE EXCHANGE                  1             32.00                                                                                                                                                                               
+D 03 - CORRECTION / ADJUST.           1            130.00                                                                                                                                                                               
+D -------------------------------------------------------
+D *** Total of all returns            2            162.00                                                                                                                                                                               
+D @@COF
+D @@BON12 tickets printed@@BOF
+D @@BON12 tickets on file@@BOF
+NP4
+T14
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          1    RICK SEDAHL          01/15/2020 10:53     01/15/2020 18:00           7.12                                                                                             01/15/2020 20:15                  
+D                                                                             Store   1 Totals       7.12                                                                                                                               
+D  
+D @@COF
+D @@BON     1 of 1 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 0 seconds@@BOF

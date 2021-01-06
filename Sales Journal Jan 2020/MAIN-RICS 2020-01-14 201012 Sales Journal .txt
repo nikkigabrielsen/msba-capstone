@@ -1,0 +1,114 @@
+TORICS - Sales Journal                   W2301/14/2020 08:10 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/14/2020 10:10 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42119 7    Regular     265-7928 - Schlotfeldt, Lorren                                                                                                                                                                                 
+D       7    M-16361         EXPLORE MONTANA      L           0    1    45.00    45.00                .00        .00     45.00     -45.00     -20.67    54       .00      .00      .00      -45.00  Store Credit      -45.00            
+D                            01 - CUST. DID NOT WANT                                                                                                                                                                                    
+D ----------------------------------------------- 12:02 PM
+D 42120 7    Regular     945-2046 - Buchard, Rachel                                                                                                                                                                                     
+D       7    G28427          EDGEBOUNCE 1.5 W     7           1    0    90.00    90.00                .00        .00       .00      90.00      47.52    47                                                                              
+D       7    FB/DISC         FREQ. BUYER DISCOUNT             0    1     0.00    35.05                .00        .00     35.05     -35.05       0.00   100                                                                              
+D                                            Totals           1    1                                  .00        .00     35.05      54.95      47.52    14       .00      .00      .00       54.95  MC/VISA            54.95            
+D ----------------------------------------------- 12:06 PM
+D 42121 7    Regular                                                                                                                                                                                                                    
+D       7    1020487         KACI II SLIP ON      9.5         1    0   125.00   112.50    112.50      .00      12.50       .00     112.50      67.50    40       .00      .00      .00      112.50  Check              12.00            
+D                                                                                                                                                                                                   Cash              100.00            
+D                                                                                                                                                                                                   Cash                1.00            
+D ----------------------------------------------- 12:31 PM
+D 42122 7    Regular                                                                                                                                                                                                                    
+D       7    5136415         DIABLO SMALL                     1    0    25.00    25.00                .00        .00       .00      25.00      12.50    50                                                                              
+D       7    5148537         DIABLO SMALL                     1    0    25.00    25.00                .00        .00       .00      25.00      12.50    50                                                                              
+D                                            Totals           2    0                                  .00        .00       .00      50.00      25.00    50       .00      .00      .00       50.00  MC/VISA            50.00            
+D ----------------------------------------------- 01:56 PM
+D 42123 7    Regular     945-2046 - Buchard, Rachel                                                                                                                                                                                     
+D       7    G28427          EDGEBOUNCE 1.5 W     7           0    1    90.00    90.00                .00        .00     90.00     -90.00     -47.52    47                                                                              
+D                            01 - CUST. DID NOT WANT                                                                                                                                                                                    
+D       7    1202851B033     LAUNCH 6             7           1    0   100.00   100.00                .00        .00       .00     100.00      56.50    44                                                                              
+D                                            Totals           1    1                                  .00        .00     90.00      10.00       8.98    10       .00      .00      .00       10.00  MC/VISA            10.00            
+D ----------------------------------------------- 04:24 PM
+D 42124 7    Regular                                                                                                                                                                                                                    
+D       7    UTMSUN          UPTOP HAT                        1    0    28.00    28.00                .00        .00       .00      28.00      14.00    50       .00      .00      .00       28.00  MC/VISA            28.00            
+D ----------------------------------------------- 05:11 PM
+D 42125 7    Regular                                                                                                                                                                                                                    
+D            *** No Sale ***                                                                                                                                     .00      .00      .00        0.00  Cash               50.00            
+D                                                                                                                                                                                                   MC/VISA           -50.00            
+D ----------------------------------------------- 05:12 PM
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/14/2020 10:10 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42126 7    Regular     945-8389 - Mount, Nathaniel                                                                                                                                                                                    
+D       7    C545N-9093      MATFLEX 5 GS         10          1    0    50.00    50.00                .00        .00       .00      50.00      24.18    52       .00      .00      .00       50.00  MC/VISA            50.00            
+D ----------------------------------------------- 06:01 PM
+D 42127 7    Regular                                                                                                                                                                                                                    
+D       7    MH1869MAR MSU   MSU NORTHERN BEANIE              1    0    13.99    13.99                .00        .00       .00      13.99       7.00    50       .00      .00      .00       13.99  MC/VISA            13.99            
+D ----------------------------------------------- 06:06 PM
+D 42128 1    Regular                                                                                                                                                                                                                    
+D       1    K952259A8WAUO   HEART AND SOUL III   M           1    0    25.00    25.00                .00        .00       .00      25.00      12.50    50                                                                              
+D       1    11159455        NFL15 TECH KNIT                  1    0    24.99    24.99                .00        .00       .00      24.99      12.50    50                                                                              
+D                                            Totals           2    0                                  .00        .00       .00      49.99      25.00    50       .00      .00      .00       49.99  MC/VISA            49.99            
+D ----------------------------------------------- 07:30 PM
+D  
+D          S A L E S   T O T A L S                           10    3                                  .00      12.50    170.05     324.43     198.51    39       .00      .00      .00      324.43                                      
+NP3
+T13
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/14/2020 10:10 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                    324.43           324.43     Cash                   150.50
+D                              0.00             0.00     Check                   12.00
+D S.O. Sale                    0.00             0.00     MC/VISA                206.93
+D Layaway                      0.00             0.00     Less payouts             0.00
+D                  ================ ================     Drawer In   200.00
+D Total Sales                324.43           324.43     Drawer Out  200.00
+D                                                        Drawer Diff              0.00
+D Gift Cert. sold                               0.00     Over/Short               0.00
+D Payment/Account                               0.00                  ================
+D S.O. Deposit                                  0.00     Cash Deposit           369.43
+D Payment/Layaway                               0.00
+D                                                        Store Credit           -45.00
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF--------------------- Return Summary ------------------
+D @@UONDescription                  Quantity           Dollars@@UOF
+D 01 - CUST. DID NOT WANT             2            135.00                                                                                                                                                                               
+D -------------------------------------------------------
+D *** Total of all returns            2            135.00                                                                                                                                                                               
+D @@COF
+D @@BON10 tickets printed@@BOF
+D @@BON10 tickets on file@@BOF
+NP4
+T14
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          1    RICK SEDAHL          01/14/2020 19:30     01/14/2020 20:00            .50                                                                                             01/14/2020 20:04                  
+D                          7    JAKE                 01/14/2020 10:08     01/14/2020 18:30           8.37                                                                                             01/14/2020 20:06                  
+D                                                                             Store   1 Totals       8.87                                                                                                                               
+D  
+D @@COF
+D @@BON     2 of 2 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 0 seconds@@BOF

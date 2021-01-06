@@ -1,0 +1,135 @@
+TORICS - Sales Journal                   W2301/6/2020  08:01 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/06/2020 10:22 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42007 1    Regular                                                                                                                                                                                                                    
+D       1    72259-009       CLASSIC TALL BADGE   8           1    0   130.00   110.00    110.00      .00      20.00       .00     110.00      59.80    46       .00      .00      .00      110.00  MC/VISA           110.00            
+D ----------------------------------------------- 10:22 AM
+D 42008 1    Regular                                                                                                                                                                                                                    
+D       1    MEMPLSPV-001    EMPIRE LO SP         10.5        1    0    70.00    70.00                .00        .00       .00      70.00      31.50    55       .00      .00      .00       70.00  MC/VISA            70.00            
+D ----------------------------------------------- 11:51 AM
+D 42009 1    Regular                                                                                                                                                                                                                    
+D       1    F36454          RACER TR             5           1    0    43.00    43.00                .00        .00       .00      43.00      20.64    52                                                                              
+D       1    VN0A32R34ME     TD SK8 HI ZIP        5           1    0    40.00    20.00     20.00      .00      20.00       .00      20.00      19.00     5                                                                              
+D                                            Totals           2    0                                  .00      20.00       .00      63.00      39.64    37       .00      .00      .00       63.00  MC/VISA            63.00            
+D ----------------------------------------------- 02:01 PM
+D 42010 1    Regular     262-7127 -                                                                                                                                                                                                     
+D       1    1081A016-200    JB ELITE IV          12          1    0   100.00   100.00                .00        .00       .00     100.00      55.00    45       .00      .00      .00      100.00  MC/VISA           100.00            
+D ----------------------------------------------- 03:08 PM
+D 42011 7    Regular     390-0378 - Olson, Sherril                                                                                                                                                                                      
+D       7    VN000EYEBKA     CLASSIC SLIP ON      8           1    0    50.00    50.00                .00        .00       .00      50.00      29.00    42       .00      .00      .00       50.00  Cash               50.00            
+D ----------------------------------------------- 04:00 PM
+D 42012 7    Regular     404-918-2297 - Dragu, Paul                                                                                                                                                                                     
+D       7    C545N-9093      MATFLEX 5 GS         13          1    0    50.00    50.00                .00        .00       .00      50.00      24.18    52       .00      .00      .00       50.00  MC/VISA            50.00            
+D ----------------------------------------------- 04:09 PM
+D 42013 7    Regular                                                                                                                                                                                                                    
+D       7    1019824         TARGHEE LOW Y        1           1    0    55.00    55.00                .00        .00       .00      55.00      30.27    45                                                                              
+D       7    C545N-9093      MATFLEX 5 GS         1.5         1    0    50.00    25.00     25.00      .00      25.00       .00      25.00      24.18     3                                                                              
+D       7    54LACES         54" LACES                        1    0     3.00     3.00                .00        .00       .00       3.00       0.85    72                                                                              
+D                                            Totals           3    0                                  .00      25.00       .00      83.00      55.30    33       .00      .00      .00       83.00  Cash                3.00            
+D                                                                                                                                                                                                   MC/VISA            80.00            
+D ----------------------------------------------- 04:12 PM
+D 42014 1    Regular                                                                                                                                                                                                                    
+D       1    VN0A4BUUU09     UY OLD SKOOL         1.5         1    0    42.00    21.00     21.00      .00      21.00       .00      21.00      24.50   -17                                                                              
+D       1    AH2615          RAPIDARUN K          7           1    0    60.00    60.00                .00        .00       .00      60.00      28.80    52                                                                              
+D                                            Totals           2    0                                  .00      21.00       .00      81.00      53.30    34       .00      .00      .00       81.00  MC/VISA            81.00            
+D ----------------------------------------------- 04:18 PM
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/06/2020 10:22 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42015 1    Regular     945-4355 - Gives, William                                                                                                                                                                                      
+D       1    060B-001        YTH MINI MESH SHORT  L           1    0    13.00    13.00                .00        .00       .00      13.00       4.45    66                                                                              
+D       1    5141750B        YTH VERT STRIPE 6PK              1    0    16.00    12.00     12.00      .00       4.00       .00      12.00       8.00    33                                                                              
+D       1    F97305          PRO NEXT K           5.5         1    0    60.00    60.00                .00        .00       .00      60.00      29.22    51                                                                              
+D                                            Totals           3    0                                  .00       4.00       .00      85.00      41.67    51       .00      .00      .00       85.00  Cash               85.00            
+D                        Comment: 1                                                                                                                                                                                                     
+D ----------------------------------------------- 04:45 PM
+D 42016 1    Regular                                                                                                                                                                                                                    
+D       7    MTSIGNSC        MONTANA COLLEGE SIGN             1    0   130.00   100.00    100.00      .00      30.00       .00     100.00      80.00    20                                                                              
+D       7    COJF80014-MT ST END ZONE             M           1    0    32.00    16.00     16.00      .00      16.00       .00      16.00      15.00     6                                                                              
+D                                            Totals           2    0                                  .00      46.00       .00     116.00      95.00    18       .00      .00      .00      116.00  MC/VISA           116.00            
+D ----------------------------------------------- 05:33 PM
+D 42017 7    Regular                                                                                                                                                                                                                    
+D       7    39174-BLK       P-6 LOGO TEE         M           1    0    35.00    35.00                .00        .00       .00      35.00      17.50    50       .00      .00      .00       35.00  MC/VISA            35.00            
+D ----------------------------------------------- 05:48 PM
+D 42018 7    Regular     262-1047 - Pat Bibau                                                                                                                                                                                           
+D       7    DU1897          W TI LITE PANT       XL          1    0    45.00    45.00                .00        .00       .00      45.00      21.60    52                                                                              
+D       7    BS9489          CLOUDRIDE            8.5         1    0    80.00    80.00                .00        .00       .00      80.00      37.40    53                                                                              
+D                                            Totals           2    0                                  .00        .00       .00     125.00      59.00    53       .00      .00      .00      125.00  MC/VISA           125.00            
+D ----------------------------------------------- 06:23 PM
+D 42019 7    Regular     399-2080 - Bibeau, Lexi                                                                                                                                                                                        
+D       7    S15244-10       KINETA RELAY         10          1    0    70.00    70.00                .00        .00       .00      70.00      38.50    45       .00      .00      .00       70.00  MC/VISA            70.00            
+D ----------------------------------------------- 06:28 PM
+D 42020 7    Regular     399-0371 - Martin, Mekala                                                                                                                                                                                      
+D       7    DB0694          CLOUDFOAM PURE       10          1    0    70.00    70.00                .00        .00       .00      70.00      39.25    44       .00      .00      .00       70.00  MC/VISA            70.00            
+D ----------------------------------------------- 06:30 PM
+D 42021 1    Regular                                                                                                                                                                                                                    
+D       1    1015188         OAKRIDGE LOW WP C    13          1    0    64.99    64.99                .00        .00       .00      64.99      31.52    52                                                                              
+D       1    ADBS100099-BWP  REBOUND SP           7           1    0    59.99    30.00     30.00      .00      29.99       .00      30.00      28.80     4                                                                              
+D       1    F35108          DURAMO 9 I           5           1    0    40.00    40.00                .00        .00       .00      40.00      19.20    52                                                                              
+D                                            Totals           3    0                                  .00      29.99       .00     134.99      79.52    41       .00      .00      .00      134.99  Cash              150.00            
+D ----------------------------------------------- 06:31 PM
+NP3
+T13
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/06/2020 10:22 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42022 1    Regular                                                                                                                                                                                                                    
+D       1    AA040-300       ADJUSTABLE ELBOW SUP             1    0    20.00    12.00     12.00      .00       8.00       .00      12.00      10.00    17       .00      .00      .00       12.00  Cash               15.00            
+D ----------------------------------------------- 06:36 PM
+D  
+D          S A L E S   T O T A L S                           26    0                                  .00     173.99       .00    1254.99     728.16    42       .00      .00      .00     1254.99                                      
+D  
+D                   O V E R   /   S H O R T                                                                                                                                                                                  0.01       
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                  1,254.99         1,254.99     Cash                   284.99
+D                              0.00             0.00     MC/VISA                970.00
+D S.O. Sale                    0.00             0.00     Less payouts             0.00
+D Layaway                      0.00             0.00     Drawer In   200.00
+D                  ================ ================     Drawer Out  200.00
+D Total Sales              1,254.99         1,254.99     Drawer Diff              0.00
+D                                                        Over/Short               0.01
+D Gift Cert. sold                               0.00                  ================
+D Payment/Account                               0.00     Cash Deposit         1,255.00
+D S.O. Deposit                                  0.00
+D Payment/Layaway                               0.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF
+D @@BON16 tickets printed@@BOF
+D @@BON16 tickets on file@@BOF
+NP4
+T14
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          1    RICK SEDAHL          01/06/2020 10:22     01/06/2020 18:00           7.63                                                                                             01/06/2020 20:00                  
+D                          7    JAKE                 01/06/2020 14:30     01/06/2020 20:00           5.50                                              01/06/2020 15:25                                                                 
+D                                                                             Store   1 Totals      13.13                                                                                                                               
+D  
+D @@COF
+D @@BON     2 of 2 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 0 seconds@@BOF

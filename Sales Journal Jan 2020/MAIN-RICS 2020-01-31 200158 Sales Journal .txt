@@ -1,0 +1,164 @@
+TORICS - Sales Journal                   W2301/31/2020 08:01 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/31/2020 11:12 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42306 1    Regular                                                                                                                                                                                                                    
+D       1    90543L-BBLM     FLEX GLOW PARROX     13.5        1    0    47.00    47.00                .00        .00       .00      47.00      22.50    52                                                                              
+D       1    90542N-BBLM     FLEX GLOW            7           1    0    44.00    22.00     22.00      .00      22.00       .00      22.00      21.00     5                                                                              
+D                                            Totals           2    0                                  .00      22.00       .00      69.00      43.50    37       .00      .00      .00       69.00  MC/VISA            69.00            
+D ----------------------------------------------- 11:12 AM
+D 42307 1    Regular     879-6427 - Bachmeier, Jacob                                                                                                                                                                                    
+D       1    1102441D016     LAUNCH 4             12.5        1    0   100.00    90.00     90.00      .00      10.00       .00      90.00      55.00    39       .00      .00      .00       90.00  Cash               45.00            
+D                                                                                                                                                                                                   MC/VISA            45.00            
+D ----------------------------------------------- 11:20 AM
+D 42308 1    Regular                                                                                                                                                                                                                    
+D       1    PAF244DSM       BRAYLON FLEECE HOODY S           1    0    59.99    59.99                .00        .00       .00      59.99      31.50    47                                                                              
+D       1    M8632-MAROON    BARRETT              M           1    0    54.99    54.99                .00        .00       .00      54.99      24.83    55                                                                              
+D                                            Totals           2    0                                  .00        .00       .00     114.98      56.33    51       .00      .00      .00      114.98  MC/VISA           114.98            
+D ----------------------------------------------- 11:56 AM
+D 42309 1    Regular     465-9223 - Novak, Wylie                                                                                                                                                                                        
+D       1    1202831B081     GLYCERIN 17          8           1    0   150.00   135.00    135.00      .00      15.00       .00     135.00      82.50    39                                                                              
+D       1    FB/DISC         FREQ. BUYER DISCOUNT             0    1     0.00    53.00                .00        .00     53.00     -53.00       0.00   100                                                                              
+D                                            Totals           1    1                                  .00      15.00     53.00      82.00      82.50    -1       .00      .00      .00       82.00  MC/VISA            82.00            
+D ----------------------------------------------- 01:43 PM
+D 42310 1    Regular     680-2282 - Burchard, Nikki                                                                                                                                                                                     
+D       1    140011005       MISTY STRETCH        9           1    0    55.00    55.00                .00        .00       .00      55.00      28.00    49       .00      .00      .00       55.00  MC/VISA            55.00            
+D ----------------------------------------------- 01:48 PM
+D 42311 1    Regular                                                                                                                                                                                                                    
+D       1    MISC            MISC ITEMS                       1    0     0.00    55.00                .00        .00       .00      55.00      32.99    40       .00      .00      .00       55.00  MC/VISA            55.00            
+D            Comment: VN0A4U38WS5 SIZE 9.5 Womens                                                                                                                                                                                       
+D ----------------------------------------------- 02:43 PM
+D 42312 1    Regular                                                                                                                                                                                                                    
+D       1    11872957        950 NFL BASIC SNAP               1    0    29.99    29.99                .00        .00       .00      29.99      15.00    50       .00      .00      .00       29.99  Cash               40.00            
+D ----------------------------------------------- 02:58 PM
+D 42313 1    Regular                                                                                                                                                                                                                    
+D       1    CE9068          CORE18 HOODY         3XL         1    0    50.00    40.00     40.00      .00      10.00       .00      40.00      24.00    40                                                                              
+D       1    NEYYAN GM       NY YANKEES           778         1    0    34.99    34.99                .00        .00       .00      34.99      16.74    52                                                                              
+D                                            Totals           2    0                                  .00      10.00       .00      74.99      40.74    46       .00      .00      .00       74.99  Cash               80.00            
+D ----------------------------------------------- 02:59 PM
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/31/2020 11:12 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42314 1    Regular                                                                                                                                                                                                                    
+D       1    54LACES         54" LACES                        1    0     3.00     3.00                .00        .00       .00       3.00       0.85    72                                                                              
+D       1    EF0307          OWNTHEGAME K         6.5         1    0    55.00    55.00                .00        .00       .00      55.00      26.40    52                                                                              
+D       1    ADJS300144-BG3  TRASE SE             7.5         1    0    60.00    60.00                .00        .00       .00      60.00      26.40    56                                                                              
+D       1    VN0A344KQ7L     OLD SKOOL V          2           1    0    35.00    17.50     17.50      .00      17.50       .00      17.50      16.62     5                                                                              
+D                                            Totals           4    0                                  .00      17.50       .00     135.50      70.27    48       .00      .00      .00      135.50  Cash              150.00            
+D ----------------------------------------------- 03:11 PM
+D 42315 7    Regular     JAKE -                                                                                                                                                                                                         
+D       7    SW016900698     M MERINO 250 1 PIECE M           1    0   230.00   120.00    120.00      .00     110.00       .00     120.00     117.00     3       .00      .00      .00      120.00  House Charge      120.00            
+D ----------------------------------------------- 03:26 PM
+D 42316 1    Regular                                                                                                                                                                                                                    
+D       1    BEB HOODY       BOX ELDER BEARS HOOD XL          1    0    45.00    34.99     34.99      .00      10.01       .00      34.99      18.09    48                                                                              
+D       1    121412111       WENDY CHAMBRAY       10          1    0    55.00    55.00                .00        .00       .00      55.00      29.00    47                                                                              
+D       1    VN0A4BUUV3J     OLD SKOOL            10.5        1    0    45.00    45.00                .00        .00       .00      45.00      22.50    50                                                                              
+D                                            Totals           3    0                                  .00      10.01       .00     134.99      69.59    48       .00      .00      .00      134.99  MC/VISA           134.99            
+D ----------------------------------------------- 03:37 PM
+D 42317 1    Regular     353-7752 - Speakthunder, Lois                                                                                                                                                                                  
+D       1    DG GLASSES      DG SUNGLASSES                    1    0    19.99    10.00     10.00      .00       9.99       .00      10.00       2.93    71                                                                              
+D       1    MEMPLSPV-001    EMPIRE LO SP         10          1    0    70.00    70.00                .00        .00       .00      70.00      31.50    55                                                                              
+D       1    FB/DISC         FREQ. BUYER DISCOUNT             0    1     0.00    30.00                .00        .00     30.00     -30.00       0.00   100                                                                              
+D                                            Totals           2    1                                  .00       9.99     30.00      50.00      34.43    31       .00      .00      .00       50.00  MC/VISA            50.00            
+D ----------------------------------------------- 03:39 PM
+D 42318 1    Regular                                                                                                                                                                                                                    
+D       1    11576203        PIECED TEAM SNAP                 1    0    32.00    30.00     30.00      .00       2.00       .00      30.00      16.00    47       .00      .00      .00       30.00  MC/VISA            30.00            
+D ----------------------------------------------- 03:59 PM
+D 42319 7    Regular     390-4257 - Young, Barbie                                                                                                                                                                                       
+D       7    300660-LPB      PURE                 10.5        1    0    64.99    64.99                .00        .00       .00      64.99      32.50    50       .00      .00      .00       64.99  Cash               64.99            
+D ----------------------------------------------- 04:10 PM
+D 42320 1    Regular                                                                                                                                                                                                                    
+D       1    3413-BLACK      MENS TRI CREW        XL          1    0    25.00    25.00                .00        .00       .00      25.00      12.00    52       .00      .00      .00       25.00  MC/VISA            25.00            
+D ----------------------------------------------- 04:14 PM
+D 42321 7    Regular                                                                                                                                                                                                                    
+D       7    DETTIG HM       DETRIOT TIGERS       778         1    0    34.99    34.99                .00        .00       .00      34.99      16.72    52       .00      .00      .00       34.99  Cash              100.00            
+D ----------------------------------------------- 05:06 PM
+NP3
+T13
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/31/2020 11:12 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42322 7    Regular     265-5435 - Brockie, Francien                                                                                                                                                                                   
+D       7    1202531B070     ADDICTION 13         11          1    0   130.00   130.00                .00        .00       .00     130.00      71.50    45                                                                              
+D       7    FB/DISC         FREQ. BUYER DISCOUNT             0    1     0.00    45.00                .00        .00     45.00     -45.00       0.00   100                                                                              
+D                                            Totals           1    1                                  .00        .00     45.00      85.00      71.50    16       .00      .00      .00       85.00  MC/VISA            85.00            
+D ----------------------------------------------- 05:13 PM
+D 42323 1    Regular                                                                                                                                                                                                                    
+D       1    KID27-N         DOUBLE FUR POM                   1    0    14.00    14.00                .00        .00       .00      14.00       7.75    45                                                                              
+D       1    CLEIND ALT2     CLEVELAND INDIANS    714         1    0    36.99    34.99     34.99      .00       2.00       .00      34.99      17.50    50                                                                              
+D       1    70358700        CHICAGO WHITE SOX    714         1    0    39.99    39.01     39.01      .00       0.98       .00      39.01      19.15    51                                                                              
+D                                            Totals           3    0                                  .00       2.98       .00      88.00      44.40    50       .00      .00      .00       88.00  Cash               90.00            
+D ----------------------------------------------- 05:54 PM
+D 42324 1    Regular                                                                                                                                                                                                                    
+D       1    MISC            MISC ITEMS                       0    1     0.00    55.00                .00        .00     55.00     -55.00     -32.99    40                                                                              
+D                            03 - CORRECTION / ADJUST.                                                                                                                                                                                  
+D       1    VN0A4U38WS5     UA CLASSIC SLIP ON   9.5         1    0    60.00    55.00     55.00      .00       5.00       .00      55.00      33.00    40                                                                              
+D                                            Totals           1    1                                  .00       5.00     55.00        .00       0.01     0       .00      .00      .00        0.00                                      
+D ----------------------------------------------- 06:14 PM
+D  
+D          S A L E S   T O T A L S                           30    4                                  .00     214.48    183.00    1339.43     838.48    37       .00      .00      .00     1339.43                                      
+NP4
+T14
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/31/2020 11:12 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                  1,339.43         1,339.43     Cash                   473.46
+D                              0.00             0.00     MC/VISA                745.97
+D S.O. Sale                    0.00             0.00     Less payouts             0.00
+D Layaway                      0.00             0.00     Drawer In   200.00
+D                  ================ ================     Drawer Out  200.00
+D Total Sales              1,339.43         1,339.43     Drawer Diff              0.00
+D                                                        Over/Short               0.00
+D Gift Cert. sold                               0.00                  ================
+D Payment/Account                               0.00     Cash Deposit         1,219.43
+D S.O. Deposit                                  0.00
+D Payment/Layaway                               0.00     House Charge           120.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF--------------------- Return Summary ------------------
+D @@UONDescription                  Quantity           Dollars@@UOF
+D 03 - CORRECTION / ADJUST.           1             55.00                                                                                                                                                                               
+D -------------------------------------------------------
+D *** Total of all returns            1             55.00                                                                                                                                                                               
+D @@COF
+D @@BON19 tickets printed@@BOF
+D @@BON19 tickets on file@@BOF
+NP5
+T15
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          1    RICK SEDAHL          01/31/2020 11:12     01/31/2020 18:00           6.80                                                                                             01/31/2020 19:50                  
+D                          7    JAKE                 01/31/2020 15:08     01/31/2020 20:01           4.88                                                                                                                               
+D                                                                             Store   1 Totals      11.68                                                                                                                               
+D  
+D @@COF
+D @@BON     2 of 2 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 1 second@@BOF

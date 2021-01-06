@@ -1,0 +1,121 @@
+TORICS - Sales Journal                   W2301/13/2020 08:05 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/13/2020 10:18 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42107 1    Regular     262-9209 - Keller, Bill                                                                                                                                                                                        
+D       1    111154900       WALLY L SOX          8           1    0    60.00    60.00                .00        .00       .00      60.00      24.00    60                                                                              
+D       1    110394300       WALLY WOVEN          8           1    0    60.00    60.00                .00        .00       .00      60.00      25.67    57                                                                              
+D                                            Totals           2    0                                  .00        .00       .00     120.00      49.67    59       .00      .00      .00      120.00  MC/VISA           120.00            
+D ----------------------------------------------- 10:19 AM
+D 42108 1    Regular                                                                                                                                                                                                                    
+D       1    LOSDOD GM       LA DODGERS           712         1    0    34.99    39.99     39.99      .00        .00       .00      39.99      16.49    59       .00      .00      .00       39.99  MC/VISA            39.99            
+D ----------------------------------------------- 12:30 PM
+D 42109 1    Regular     399-2344 - Sisty, Jim                                                                                                                                                                                          
+D       1    1013181         TARGHEE II WP        8           1    0   130.00   130.00                .00        .00       .00     130.00      66.17    49       .00      .00      .00      130.00  MC/VISA           130.00            
+D ----------------------------------------------- 12:31 PM
+D 42110 1    Regular     262-4001 - Schmidt, Lareina                                                                                                                                                                                    
+D       1    TEES            TEES                 M           1    0    25.00    12.50     12.50      .00      12.50       .00      12.50      12.50     0                                                                              
+D       1    1011A166-001    EXCITE 6 WIDE        13          1    0    75.00    75.00                .00        .00       .00      75.00      32.00    57                                                                              
+D       1    FB/DISC         FREQ. BUYER DISCOUNT             0    1     0.00    32.75                .00        .00     32.75     -32.75       0.00   100                                                                              
+D       1    AN8364          TEAM ISSUE MEDIUM                1    0    50.00    50.00                .00        .00       .00      50.00      15.00    70                                                                              
+D       1    54LACES         54" LACES                        1    0     3.00     3.00                .00        .00       .00       3.00       0.85    72                                                                              
+D                                            Totals           4    1                                  .00      12.50     32.75     107.75      60.35    44       .00      .00      .00      107.75  Cash              108.00            
+D ----------------------------------------------- 12:58 PM
+D 42111 1    Regular     540-3061 - Hanson, Darcy                                                                                                                                                                                       
+D       1    72151-009       CLASSIC DINO         7           1    0    80.00    80.00                .00        .00       .00      80.00      37.20    54       .00      .00      .00       80.00  MC/VISA            80.00            
+D ----------------------------------------------- 02:07 PM
+D 42112 1    Regular     384-8086 - Jaha, Amy                                                                                                                                                                                           
+D       1    121410522       WENDY CHAMBRAY       9           1    0    55.00    55.00                .00        .00       .00      55.00      28.50    48       .00      .00      .00       55.00  MC/VISA            55.00            
+D ----------------------------------------------- 02:44 PM
+D 42113 1    Regular     262-4001 - Schmidt, Lareina                                                                                                                                                                                    
+D       1    1011A166-001    EXCITE 6 WIDE        13          0    1    75.00    42.25     42.25      .00     -32.75     42.25     -42.25     -32.00    24                                                                              
+D                            01 - CUST. DID NOT WANT                                                                                                                                                                                    
+D       1    54LACES         54" LACES                        0    1     3.00     3.00                .00        .00      3.00      -3.00      -0.85    72                                                                              
+D                            01 - CUST. DID NOT WANT                                                                                                                                                                                    
+D       1    SH15CMPH2-RYL   FIREHAWK SEAHAWKS    XL          1    0    60.00    30.00     30.00      .00      30.00       .00      30.00      26.50    12                                                                              
+D                                            Totals           1    2                                  .00      -2.75     45.25     -15.25      -6.35    58       .00      .00      .00      -15.25  Cash              -15.25            
+D ----------------------------------------------- 02:53 PM
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/13/2020 10:18 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42114 7    Regular     344-0248 - Lacey, Bradley                                                                                                                                                                                      
+D       7    121410123       WENDY CHAMBRAY       8           1    0    55.00    55.00                .00        .00       .00      55.00      29.00    47       .00      .00      .00       55.00  MC/VISA            55.00            
+D ----------------------------------------------- 03:41 PM
+D 42115 7    Regular                                                                                                                                                                                                                    
+D       7    111033000       WALLY B SOX          8           1    0    60.00    60.00                .00        .00       .00      60.00      26.67    56       .00      .00      .00       60.00  MC/VISA            60.00            
+D ----------------------------------------------- 03:53 PM
+D 42116 1    Regular     945-5920 - Filius, Scott and Kari                                                                                                                                                                              
+D       1    1203051B063     GHOST 12             8.5         1    0   130.00   130.00                .00        .00       .00     130.00      73.00    44                                                                              
+D       1    S10462-1        TRIUMPH ISO 5        8           1    0   160.00   136.00    136.00      .00      24.00       .00     136.00      88.00    35                                                                              
+D                                            Totals           2    0                                  .00      24.00       .00     266.00     161.00    39       .00      .00      .00      266.00  MC/VISA           266.00            
+D ----------------------------------------------- 05:53 PM
+D 42117 7    Regular                                                                                                                                                                                                                    
+D       7    1669W-011       BOSHIE               9           1    0    90.00    72.00     72.00      .00      18.00       .00      72.00      44.00    39       .00      .00      .00       72.00  Cash              100.00            
+D ----------------------------------------------- 06:48 PM
+D 42118 7    Regular                                                                                                                                                                                                                    
+D       7    97781           WATER REPELLENT                  1    0     6.00     6.00                .00        .00       .00       6.00       2.75    54       .00      .00      .00        6.00  Cash                6.00            
+D ----------------------------------------------- 06:49 PM
+D  
+D          S A L E S   T O T A L S                           17    3                                  .00      51.75     78.00     976.49     515.45    47       .00      .00      .00      976.49                                      
+NP3
+T13
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/13/2020 10:18 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                    976.49           976.49     Cash                   170.50
+D                              0.00             0.00     MC/VISA                805.99
+D S.O. Sale                    0.00             0.00     Less payouts             0.00
+D Layaway                      0.00             0.00     Drawer In   200.00
+D                  ================ ================     Drawer Out  200.00
+D Total Sales                976.49           976.49     Drawer Diff              0.00
+D                                                        Over/Short               0.00
+D Gift Cert. sold                               0.00                  ================
+D Payment/Account                               0.00     Cash Deposit           976.49
+D S.O. Deposit                                  0.00
+D Payment/Layaway                               0.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF--------------------- Return Summary ------------------
+D @@UONDescription                  Quantity           Dollars@@UOF
+D 01 - CUST. DID NOT WANT             2             45.25                                                                                                                                                                               
+D -------------------------------------------------------
+D *** Total of all returns            2             45.25                                                                                                                                                                               
+D @@COF
+D @@BON12 tickets printed@@BOF
+D @@BON12 tickets on file@@BOF
+NP4
+T14
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          1    RICK SEDAHL          01/13/2020 10:19     01/13/2020 18:00           7.68                                                                                             01/13/2020 18:23                  
+D                          7    JAKE                 01/13/2020 15:15     01/13/2020 20:02           4.78                                                                                                                               
+D                                                                             Store   1 Totals      12.46                                                                                                                               
+D  
+D @@COF
+D @@BON     2 of 2 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 1 second@@BOF

@@ -1,0 +1,105 @@
+TORICS - Sales Journal                   W2301/28/2020 08:03 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/28/2020 10:21 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42275 7    Regular                                                                                                                                                                                                                    
+D       7    PINNACLE        POWERSTEP PINNACLE   4           1    0    41.00    38.00     38.00      .00       3.00       .00      38.00      17.55    54       .00      .00      .00       38.00  Check              38.00            
+D ----------------------------------------------- 10:21 AM
+D 42276 7    Regular                                                                                                                                                                                                                    
+D       7    1669W-011       BOSHIE               8           1    0    90.00    72.00     72.00      .00      18.00       .00      72.00      44.00    39       .00      .00      .00       72.00  Cash               72.00            
+D ----------------------------------------------- 10:33 AM
+D 42277 7    Regular     262-9114 - Paul Schuschke                                                                                                                                                                                      
+D       7    1007722         AUSTIN               10          1    0   110.00    93.50     93.50      .00      16.50       .00      93.50      54.88    41       .00      .00      .00       93.50  MC/VISA            93.50            
+D ----------------------------------------------- 11:19 AM
+D 42278 7    Regular                                                                                                                                                                                                                    
+D       7    20203N-MLT      POWER PETALS         7           0    1    39.00    19.50     19.50      .00     -19.50     19.50     -19.50     -18.50     5       .00      .00      .00      -19.50  Cash              -19.50            
+D                            01 - CUST. DID NOT WANT                                                                                                                                                                                    
+D ----------------------------------------------- 12:41 PM
+D 42279 7    Regular     262-3668 - Bousquet, Missy                                                                                                                                                                                     
+D       7    S30034-1        FLARE                10          1    0    70.00    65.00     65.00      .00       5.00       .00      65.00      38.50    41       .00      .00      .00       65.00  Cash               80.00            
+D ----------------------------------------------- 04:08 PM
+D 42280 7    Regular                                                                                                                                                                                                                    
+D       7    11184117        BAYCIK SNAP                      1    0    27.99    25.00     25.00      .00       2.99       .00      25.00       9.00    64       .00      .00      .00       25.00  Cash               25.00            
+D ----------------------------------------------- 04:10 PM
+D 42281 7    Regular                                                                                                                                                                                                                    
+D       7    M-8629BLACK     BARRET               L           1    0    54.99    54.99                .00        .00       .00      54.99      24.75    55                                                                              
+D       7    S08313-MT ST    TERRI FOOTBALL       L           1    0    19.99    10.00     10.00      .00       9.99       .00      10.00       8.75    13                                                                              
+D                                            Totals           2    0                                  .00       9.99       .00      64.99      33.50    48       .00      .00      .00       64.99  MC/VISA            64.99            
+D ----------------------------------------------- 04:23 PM
+D 42282 7    Regular     399-2865 - Antonich, Johnna                                                                                                                                                                                    
+D       7    1011A165-001    EXCITE 6             10.5        1    0    75.00    75.00                .00        .00       .00      75.00      35.80    52       .00      .00      .00       75.00  MC/VISA            75.00            
+D ----------------------------------------------- 04:35 PM
+D 42283 7    Regular     265-8409 - Kuhn, Jerry                                                                                                                                                                                         
+D       7    VN000VHGY28     SK8 HI PRO           11          1    0    70.00    59.50     59.50      .00      10.50       .00      59.50      39.92    33                                                                              
+D       7    FB/DISC         FREQ. BUYER DISCOUNT             0    1     0.00    34.55                .00        .00     34.55     -34.55       0.00   100                                                                              
+D                                            Totals           1    1                                  .00      10.50     34.55      24.95      39.92   -60       .00      .00      .00       24.95  MC/VISA            24.95            
+D ----------------------------------------------- 05:12 PM
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/28/2020 10:21 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42284 7    Regular     390-5379 - Strike, Midge                                                                                                                                                                                       
+D       7    3950360202      XP 2.0               40          1    0   150.00   127.50    127.50      .00      22.50       .00     127.50      72.50    43                                                                              
+D       7    DB0694          CLOUDFOAM PURE       9.5         1    0    70.00    70.00                .00        .00       .00      70.00      39.25    44                                                                              
+D                                            Totals           2    0                                  .00      22.50       .00     197.50     111.75    43       .00      .00      .00      197.50  MC/VISA           197.50            
+D ----------------------------------------------- 05:47 PM
+D  
+D          S A L E S   T O T A L S                           11    2                                  .00      68.98     54.05     636.44     366.40    42       .00      .00      .00      636.44                                      
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                    636.44           636.44     Cash                   142.50
+D                              0.00             0.00     Check                   38.00
+D S.O. Sale                    0.00             0.00     MC/VISA                455.94
+D Layaway                      0.00             0.00     Less payouts             0.00
+D                  ================ ================     Drawer In   200.00
+D Total Sales                636.44           636.44     Drawer Out  200.00
+D                                                        Drawer Diff              0.00
+D Gift Cert. sold                               0.00     Over/Short               0.00
+D Payment/Account                               0.00                  ================
+D S.O. Deposit                                  0.00     Cash Deposit           636.44
+D Payment/Layaway                               0.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF--------------------- Return Summary ------------------
+D @@UONDescription                  Quantity           Dollars@@UOF
+D 01 - CUST. DID NOT WANT             1             19.50                                                                                                                                                                               
+D -------------------------------------------------------
+D *** Total of all returns            1             19.50                                                                                                                                                                               
+NP3
+T13
+T2
+D @@CON
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D @@COF
+D @@BON10 tickets printed@@BOF
+D @@BON10 tickets on file@@BOF
+NP4
+T14
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          7    JAKE                 01/28/2020 10:03     01/28/2020 18:45           8.70                                                                                                                               
+D                                                                             Store   1 Totals       8.70                                                                                                                               
+D  
+D @@COF
+D @@BON     1 of 1 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 0 seconds@@BOF

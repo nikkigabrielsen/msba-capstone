@@ -1,0 +1,115 @@
+TORICS - Sales Journal                   W2301/26/2020 05:25 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/26/2020 12:30 PM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42256 1    Regular                                                                                                                                                                                                                    
+D       1    HBP HOODY2      BLUE PONY HOODY      L           1    0    45.00    45.00                .00        .00       .00      45.00      19.29    57                                                                              
+D       1    CICLBWHROY      DASH HOODY           XXL         1    0    45.00    45.00                .00        .00       .00      45.00      20.77    54                                                                              
+D       1    29LS HITMAN     HITMAN LS            S           1    0    20.00    10.00     10.00      .00      10.00       .00      10.00       9.64     4                                                                              
+D       1    29LS HORSE      HORSEHEAD TEE        XL          1    0    20.00    20.00                .00        .00       .00      20.00      10.00    50                                                                              
+D       1    11EDZ513PENGUIN STRUCTURED FLEX      L/XL        1    0    26.00    26.00                .00        .00       .00      26.00      13.00    50                                                                              
+D                                            Totals           5    0                                  .00      10.00       .00     146.00      72.70    50       .00      .00      .00      146.00  MC/VISA           146.00            
+D ----------------------------------------------- 12:30 PM
+D 42257 1    Regular                                                                                                                                                                                                                    
+D       1    S10350-3        GUIDE 10             10          1    0   120.00    84.00     84.00      .00      36.00       .00      84.00      66.00    21       .00      .00      .00       84.00  Check              84.00            
+D ----------------------------------------------- 12:49 PM
+D 42258 1    Layaway     265-7515 -                                                                                                                                                                                                     
+D       1    S10420-6        COHESION 11          8           1    0    60.00    60.00                .00        .00       .00      60.00      33.00    45       .00      .00      .00       60.00  Cash               30.00            
+D ----------------------------------------------- 12:52 PM
+D 42259 1    Regular     208-457-2367 - Jameson, Kodi                                                                                                                                                                                   
+D       1    300529-3BK      COURT GRAFFIK        8.5         1    0    65.00    59.99     59.99      .00       5.01       .00      59.99      31.47    48       .00      .00      .00       59.99  Cash               60.00            
+D ----------------------------------------------- 01:03 PM
+D 42260 1    Layaway     928-323-2363 - Russell                                                                                                                                                                                         
+D       1    861452-688      JORDAN HAT                       1    0    30.00    30.00                .00        .00       .00      30.00      15.00    50       .00      .00      .00       30.00  Cash                5.00            
+D ----------------------------------------------- 01:13 PM
+D 42261 1    Regular                                                                                                                                                                                                                    
+D       1    1017270         BUNGEE REPLACEMENT               1    0    10.00    12.00     12.00      .00        .00       .00      12.00       5.00    58       .00      .00      .00       12.00  MC/VISA            12.00            
+D ----------------------------------------------- 02:00 PM
+D 42262 1    Regular                                                                                                                                                                                                                    
+D       1    1018822         NEWPORT RETRO W      8.5         1    0   100.00    90.00     90.00      .00      10.00       .00      90.00      50.00    44       .00      .00      .00       90.00  MC/VISA            90.00            
+D ----------------------------------------------- 02:34 PM
+D 42263 1    Regular                                                                                                                                                                                                                    
+D       1    320039-XKBW     COURT GRAFFIK I      1           1    0    24.99    12.50     12.50      .00      12.49       .00      12.50      12.50     0                                                                              
+D       1    VN0A346PQ1A     SK8-HI CRIB          2           1    0    30.00    30.00                .00        .00       .00      30.00      14.25    53                                                                              
+D       1    1961W-220       MINDY                9           1    0    60.00    48.00     48.00      .00      12.00       .00      48.00      30.17    37                                                                              
+D       1    70323844        CM3930               M/L         1    0    32.00    32.00                .00        .00       .00      32.00      16.00    50                                                                              
+D       1    97781           WATER REPELLENT                  1    0     6.00     6.00                .00        .00       .00       6.00       2.75    54                                                                              
+D                                            Totals           5    0                                  .00      24.49       .00     128.50      75.67    41       .00      .00      .00      128.50  Cash              140.00            
+D ----------------------------------------------- 02:54 PM
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/26/2020 12:30 PM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42264 1    Layaway     945-1606 -                                                                                                                                                                                                     
+D       1    84070-COB       W'S MICRO PUFF JKT   L           1    0   249.00   174.30    174.30      .00      74.70       .00     174.30     124.50    29       .00      .00      .00      174.30  Cash               15.00            
+D ----------------------------------------------- 03:15 PM
+D 42265 1    Regular                                                                                                                                                                                                                    
+D       1    5134713         INTERVAL REV HB                  2    0     7.00     7.00                .00        .00       .00      14.00       7.00    50       .00      .00      .00       14.00  Cash               20.00            
+D ----------------------------------------------- 03:24 PM
+D 42266 1    Regular     357-2996 - Jaha, Jim                                                                                                                                                                                           
+D       1    VN0A4BV6V8V     UA SK8-HI            11.5        1    0    65.00    65.00                .00        .00       .00      65.00      35.40    46                                                                              
+D       1    G28585          ALPHABOUNCE+         11.5        1    0   100.00   100.00                .00        .00       .00     100.00      52.80    47                                                                              
+D                                            Totals           2    0                                  .00        .00       .00     165.00      88.20    47       .00      .00      .00      165.00  MC/VISA           165.00            
+D ----------------------------------------------- 03:57 PM
+D 42267 1    Regular                                                                                                                                                                                                                    
+D       1    881465-010      FORMULA 23           10.5        1    0   129.99    91.00     91.00      .00      38.99       .00      91.00      65.00    29       .00      .00      .00       91.00  Cash               91.00            
+D ----------------------------------------------- 05:10 PM
+D  
+D          S A L E S   T O T A L S                           22    0                                  .00     199.19       .00    1054.79     633.54    40       .00      .00      .00     1054.79                                      
+D  
+D                   O V E R   /   S H O R T                                                                                                                                                                                  0.01       
+NP3
+T13
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/26/2020 12:30 PM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                    790.49           790.49     Cash                   343.49
+D                              0.00             0.00     Check                   84.00
+D S.O. Sale                    0.00             0.00     MC/VISA                413.00
+D Layaway                    264.30           264.30     Less payouts             0.00
+D                  ================ ================     Drawer In   200.00
+D Total Sales              1,054.79         1,054.79     Drawer Out  200.00
+D                                                        Drawer Diff              0.00
+D Gift Cert. sold                               0.00     Over/Short               0.01
+D Payment/Account                               0.00                  ================
+D S.O. Deposit                                  0.00     Cash Deposit           840.50
+D Payment/Layaway                              50.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF
+D @@BON12 tickets printed@@BOF
+D @@BON12 tickets on file@@BOF
+NP4
+T14
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          1    RICK SEDAHL          01/26/2020 12:30     01/26/2020 16:00           3.50                                                                                             01/26/2020 17:24                  
+D                                                                             Store   1 Totals       3.50                                                                                                                               
+D  
+D @@COF
+D @@BON     1 of 1 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 0 seconds@@BOF

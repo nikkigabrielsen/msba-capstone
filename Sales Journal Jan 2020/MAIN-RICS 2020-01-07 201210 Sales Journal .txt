@@ -1,0 +1,111 @@
+TORICS - Sales Journal                   W2301/7/2020  08:12 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/07/2020 10:07 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42023 7    Regular                                                                                                                                                                                                                    
+D       7    VN0A4BV1UY3     TD SK8 HI ZIP        10          1    0    45.00    22.50     22.50      .00      22.50       .00      22.50      22.50     0                                                                              
+D       7    VN0A4BV1UY3     TD SK8 HI ZIP        8           0    1    45.00    22.50     22.50      .00     -22.50     22.50     -22.50     -22.50     0                                                                              
+D                            01 - CUST. DID NOT WANT                                                                                                                                                                                    
+D                                            Totals           1    1                                  .00        .00     22.50        .00       0.00     0       .00      .00      .00        0.00                                      
+D ----------------------------------------------- 11:36 AM
+D 42024 7    Regular                                                                                                                                                                                                                    
+D       7    IND4-GUNMETAL   HW PULLOVER          L           1    0    54.00    54.00                .00        .00       .00      54.00      26.00    52                                                                              
+D       7    UTMTIDHOODIEG   MONTANA TIL I DIE    XXL         1    0    50.00    50.00                .00        .00       .00      50.00      25.00    50                                                                              
+D       7    M-16361         EXPLORE MONTANA      L           1    0    45.00    45.00                .00        .00       .00      45.00      20.67    54                                                                              
+D       7    5135856         3-PACK CREW 5-10                 1    0    14.00    11.00     11.00      .00       3.00       .00      11.00       7.00    36                                                                              
+D                                            Totals           4    0                                  .00       3.00       .00     160.00      78.67    51       .00      .00      .00      160.00  MC/VISA           160.00            
+D ----------------------------------------------- 12:09 PM
+D 42025 7    Regular                                                                                                                                                                                                                    
+D       7    CW9487          ASK SPRT LST M       M           1    0    30.00    25.00     25.00      .00       5.00       .00      25.00       9.00    64       .00      .00      .00       25.00  MC/VISA            25.00            
+D ----------------------------------------------- 02:46 PM
+D 42026 7    Regular     808-3131 - Shipp, Paulette                                                                                                                                                                                     
+D       7    1018096-GAWL    NICE BOOTAH          9           1    0    80.00    60.00     60.00      .00      20.00       .00      60.00      44.00    27       .00      .00      .00       60.00  MC/VISA            60.00            
+D ----------------------------------------------- 03:36 PM
+D 42027 7    Regular     214-773-7704 - Karagias, Xenia                                                                                                                                                                                 
+D       7    C545N-9093      MATFLEX 5 GS         10          1    0    50.00    50.00                .00        .00       .00      50.00      24.18    52       .00      .00      .00       50.00  MC/VISA            50.00            
+D ----------------------------------------------- 03:56 PM
+D 42028 7    Regular     945-1328 - Gibson, Karen                                                                                                                                                                                       
+D       7    1014A049-403    CONTEND 5 GS         3.5         1    0    55.00    55.00                .00        .00       .00      55.00      27.50    50       .00      .00      .00       55.00  MC/VISA            55.00            
+D ----------------------------------------------- 04:00 PM
+D 42029 7    Regular                                                                                                                                                                                                                    
+D       7    1084A007-001    MATFLEX 6 GS         6           1    0    50.00    50.00                .00        .00       .00      50.00      25.00    50       .00      .00      .00       50.00  Cash               50.00            
+D ----------------------------------------------- 04:01 PM
+D 42030 7    Regular     262-4747 - Evans, Karly                                                                                                                                                                                        
+D       7    1084A007-001    MATFLEX 6 GS         2           1    0    50.00    50.00                .00        .00       .00      50.00      25.00    50       .00      .00      .00       50.00  MC/VISA            50.00            
+D ----------------------------------------------- 04:57 PM
+D 42031 1    Regular     262-7662 - Begay, Theresa                                                                                                                                                                                      
+D       1    BWL110          COMPOSITE BASKETBALL             1    0    33.00    33.00                .00        .00       .00      33.00      14.25    57                                                                              
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/07/2020 10:07 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D       1    BB7538          PRO SPARK 2018       10          1    0    65.00    65.00                .00        .00       .00      65.00      35.75    45                                                                              
+D                                            Totals           2    0                                  .00        .00       .00      98.00      50.00    49       .00      .00      .00       98.00  Cash              100.00            
+D ----------------------------------------------- 06:44 PM
+D 42032 1    Regular                                                                                                                                                                                                                    
+D       1    DH8179          W TI FZ              M           1    0    60.00    45.00     45.00      .00      15.00       .00      45.00      27.60    39       .00      .00      .00       45.00  Cash               45.00            
+D ----------------------------------------------- 07:37 PM
+D  
+D          S A L E S   T O T A L S                           14    1                                  .00      43.00     22.50     593.00     310.95    48       .00      .00      .00      593.00                                      
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                    593.00           593.00     Cash                   193.00
+D                              0.00             0.00     MC/VISA                400.00
+D S.O. Sale                    0.00             0.00     Less payouts             0.00
+D Layaway                      0.00             0.00     Drawer In   200.00
+D                  ================ ================     Drawer Out  200.00
+D Total Sales                593.00           593.00     Drawer Diff              0.00
+D                                                        Over/Short               0.00
+D Gift Cert. sold                               0.00                  ================
+D Payment/Account                               0.00     Cash Deposit           593.00
+D S.O. Deposit                                  0.00
+D Payment/Layaway                               0.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF--------------------- Return Summary ------------------
+D @@UONDescription                  Quantity           Dollars@@UOF
+D 01 - CUST. DID NOT WANT             1             22.50                                                                                                                                                                               
+NP3
+T13
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/07/2020 10:07 AM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D @@COF@@BON--------------- Return Summary  (continued)------------@@BOF
+D @@UONDescription                  Quantity           Dollars@@UOF
+D *** Total of all returns            1             22.50                                                                                                                                                                               
+D @@COF
+D @@BON10 tickets printed@@BOF
+D @@BON10 tickets on file@@BOF
+NP4
+T14
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          1    RICK SEDAHL          01/07/2020 18:44     01/07/2020 20:00           1.27                                                                                             01/07/2020 20:09                  
+D                          7    JAKE                 01/07/2020 10:02     01/07/2020 17:51           7.82                                                                                                                               
+D                                                                             Store   1 Totals       9.09                                                                                                                               
+D  
+D @@COF
+D @@BON     2 of 2 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 0 seconds@@BOF

@@ -1,0 +1,117 @@
+TORICS - Sales Journal                   W2301/10/2020 08:07 PM  MAIN           
+NP1
+T11
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/10/2020 12:12 PM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D 42064 1    Regular                                                                                                                                                                                                                    
+D       1    SSYS4           DREAM WALKER         XL          1    0    30.00    30.00                .00        .00       .00      30.00      14.40    52       .00      .00      .00       30.00  Cash               50.00            
+D ----------------------------------------------- 02:00 PM
+D 42065 1    Regular                                                                                                                                                                                                                    
+D       1    COUJ10663-MTST  ARCHER FZ HOODY      XL          1    0    65.00    65.00                .00        .00       .00      65.00      30.00    54       .00      .00      .00       65.00  Cash               50.00            
+D                                                                                                                                                                                                   MC/VISA            15.00            
+D ----------------------------------------------- 02:31 PM
+D 42066 7    Regular                                                                                                                                                                                                                    
+D       7    CW9487          ASK SPRT LST M       M           1    0    30.00    30.00                .00        .00       .00      30.00       9.00    70                                                                              
+D       7    UTH27           UPTOP HAT                        1    0    27.00    27.00                .00        .00       .00      27.00      14.00    48                                                                              
+D                                            Totals           2    0                                  .00        .00       .00      57.00      23.00    60       .00      .00      .00       57.00  Cash               57.00            
+D ----------------------------------------------- 02:38 PM
+D 42067 1    Regular                                                                                                                                                                                                                    
+D       1    1012A030-001    GT-1000 7            8           1    0    90.00    90.00                .00        .00       .00      90.00      49.50    45       .00      .00      .00       90.00  Cash              100.00            
+D ----------------------------------------------- 02:48 PM
+D 42068 7    Regular                                                                                                                                                                                                                    
+D       7    111033000       WALLY B SOX          9           1    0    60.00    48.00     48.00      .00      12.00       .00      48.00      26.67    44                                                                              
+D       7    121416400       WENDY                10          0    1    55.00    44.00     44.00      .00     -11.00     44.00     -44.00     -27.50    38                                                                              
+D                            02 - SIZE EXCHANGE                                                                                                                                                                                         
+D                                            Totals           1    1                                  .00       1.00     44.00       4.00      -0.83   121       .00      .00      .00        4.00  Cash                4.00            
+D ----------------------------------------------- 02:52 PM
+D 42069 1    Regular                                                                                                                                                                                                                    
+D       1    COSS20124-MT    CURLING CHEER SET    M           1    0    30.00    15.00     15.00      .00      15.00       .00      15.00      14.00     7       .00      .00      .00       15.00  Cash               15.00            
+D ----------------------------------------------- 03:13 PM
+D 42070 1    Regular                                                                                                                                                                                                                    
+D       1    T6E3N-9099      EXCITE-4             9.5         1    0    70.00    70.00                .00        .00       .00      70.00      38.50    45       .00      .00      .00       70.00  MC/VISA            70.00            
+D ----------------------------------------------- 03:36 PM
+D 42071 1    Regular     265-6364 - Harrell, Irene                                                                                                                                                                                      
+D       1    S456L-9018      UNIFIRE TR           11          1    0    64.99    46.00     46.00      .00      18.99       .00      46.00      35.75    22       .00      .00      .00       46.00  Check              46.00            
+D ----------------------------------------------- 03:55 PM
+D 42072 1    Regular     399-5142 - Boushie, Charity                                                                                                                                                                                    
+D       1    VN0A4BV1V3W     SK8 HI ZIP           5           1    0    42.00    42.00                .00        .00       .00      42.00      23.95    43                                                                              
+D       1    FB/DISC         FREQ. BUYER DISCOUNT             0    1     0.00    36.00                .00        .00     36.00     -36.00       0.00   100                                                                              
+NP2
+T12
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/10/2020 12:12 PM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D                                            Totals           1    1                                  .00        .00     36.00       6.00      23.95  -299       .00      .00      .00        6.00  Cash               20.00            
+D ----------------------------------------------- 04:17 PM
+D 42073 1    Regular                                                                                                                                                                                                                    
+D       1    PITPIR ALT      PITTSBUGH PIRATES    778         1    0    34.99    34.99                .00        .00       .00      34.99      16.73    52       .00      .00      .00       34.99  Cash               34.99            
+D ----------------------------------------------- 05:53 PM
+D 42074 7    Regular                                                                                                                                                                                                                    
+D       7    440561-9090     VORTEX HYBRID        L           1    0    25.00    25.00                .00        .00       .00      25.00      13.75    45       .00      .00      .00       25.00  Cash               25.00            
+D ----------------------------------------------- 06:43 PM
+D 42075 1    Pay/Account RICK -                                                                                                                                                                                                         
+D       1                                                                                                                                                                                  2666.60  Check            2666.60            
+D ----------------------------------------------- 07:08 PM
+D  
+D          S A L E S   T O T A L S                           12    2                                  .00      34.99     80.00     442.99     258.75    42       .00      .00      .00     3109.59                                      
+D  
+D                   O V E R   /   S H O R T                                                                                                                                                                                  0.01       
+NP3
+T13
+T2
+D @@CON
+D Store 1 - TAF - HAVRE Batch started 01/10/2020 12:12 PM   User POS Terminal type W
+D 
+H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
+H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
+D @@COF
+D 
+D --------------- Transaction Totals ---------------
+D                         Net Sales            Total     ------- Tender Totals -------
+D Regular                    442.99           442.99     Cash                   311.99
+D                              0.00             0.00     Check                2,712.60
+D S.O. Sale                    0.00             0.00     MC/VISA                 85.00
+D Layaway                      0.00             0.00     Less payouts             0.00
+D                  ================ ================     Drawer In   200.00
+D Total Sales                442.99           442.99     Drawer Out  200.00
+D                                                        Drawer Diff              0.00
+D Gift Cert. sold                               0.00     Over/Short               0.01
+D Payment/Account                           2,666.60                  ================
+D S.O. Deposit                                  0.00     Cash Deposit         3,109.60
+D Payment/Layaway                               0.00
+D 
+D ------------------ Void Summary ------------------
+D Number of Tickets                                0
+D Amount                                        0.00
+D % of Net Sales                              ------
+D 
+D 
+D 
+D @@COF--------------------- Return Summary ------------------
+D @@UONDescription                  Quantity           Dollars@@UOF
+D 02 - SIZE EXCHANGE                  1             44.00                                                                                                                                                                               
+D -------------------------------------------------------
+D *** Total of all returns            1             44.00                                                                                                                                                                               
+D @@COF
+D @@BON12 tickets printed@@BOF
+D @@BON12 tickets on file@@BOF
+NP4
+T14
+T2
+D @@CON
+H @@BON@@BOF
+H @@BON@@UONStore                    SalesPerson               Time In              Time Out             Total Time Non-Sales Reversed Clocked in by             Actual Time In       Clocked Out by            Actual Time Out     @@UOF@@BOF
+D   1 TAF - HAVRE          1    RICK SEDAHL          01/10/2020 14:00     01/10/2020 18:00           4.00                                                                                             01/10/2020 19:58                  
+D                          7    JAKE                 01/10/2020 14:33     01/10/2020 20:06           5.55                                                                                                                               
+D                                                                             Store   1 Totals       9.55                                                                                                                               
+D  
+D @@COF
+D @@BON     2 of 2 time clock records in the file were used@@BOF
+D @@BONElapsed Time : 0 seconds@@BOF
