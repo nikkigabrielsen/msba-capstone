@@ -40,14 +40,6 @@ D       7    SSYT1           CHIEF SHIRT          XL          1    0    20.00   
 D       7    3245Y-001       WARM UP PANT         L           1    0    32.00    32.00                .00        .00       .00      32.00      15.00    53                                                                              
 D       7    SSYS4           DREAM WALKER         L           1    0    30.00    30.00                .00        .00       .00      30.00      14.40    52                                                                              
 D       7    SSYS5           ANCESTORS            L           1    0    30.00    30.00                .00        .00       .00      30.00      14.40    52                                                                              
-NP2
-T12
-T2
-D @@CON
-D Store 1 - TAF - HAVRE Batch started 01/11/2020 10:13 AM   User POS Terminal type W
-D 
-H @@BON                                                        !- Qtys -! !----- Unit Amounts ------!          !---------- Extended Amounts ------------!@@BOF
-H @@BON@@UONTick# Slsp -------- SKU --------                         Sold  Ret   Retail    Price Unmatched    Perks   Markdown  Returned   Net Sale       Cost  GP %     Other                         Total  Tender                  @@UOF@@BOF
 D                                            Totals           5    0                                  .00       8.00       .00     120.00      61.40    49       .00      .00      .00      120.00  MC/VISA           120.00            
 D ----------------------------------------------- 01:37 PM
 D 42085 1    Regular     395-4232 - Collins, Hanna                                                                                                                                                                                      
