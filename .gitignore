@@ -1,2 +1,13 @@
 # Ignore complete folder
 Sales Journal Clean/
+Sales Journal 2020 Clean/
+Sales Journal 2020/
+Sales Journal Jan 2020/
+
+# Ignore files
+Acquire_Analyze.R
+northstar_athletics_2.db
+SALES ANALYSIS 2021.CSV
+SALES ANALYSIS.CSV
+SKU FILE 2021.CSV
+SKU FILE.CSV
