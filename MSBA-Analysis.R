@@ -1,22 +1,3 @@
-## ------------------------------------------------------------- ##
-
-                        # Setup for Rmd #
-
-## ------------------------------------------------------------- ##
-
----
-  title: "Northstar Athletics Analysis"
-author: "Nikki Gabrielsen"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
-html_document:
-  toc: true
-toc_depth: 6
-number_sections: true
-toc_float: true
-code_folding: hide
-theme: flatly
-code_download: true
----
 
 ## ------------------------------------------------------------- ##
 
@@ -28,6 +9,11 @@ library(tidyverse)
 library(DBI)
 library(dplyr)
 library(ggplot2)
+library(knitr)
+library(kableExtra)
+  #group_rows is masked from dyplr#
+
+#----#
 library(jtools)
 library(scales)
 
@@ -55,8 +41,13 @@ dbListTables(con)
 
 # Creating connection to the tables
 
-trans <- tbl(con, "transactions")
-sku <- tbl(con, "SKU FILE 2021")
+trans <- tbl(con, "master")
+vend_ym <- tbl(con, "vend_year_month")
+cat_ym <- tbl(con, "cat_year_month")
+
+
+
+
 
 # Histogram - Number of Items per Customer
 for.hist <- trans %>% 
@@ -76,8 +67,15 @@ table(for.hist$Quan)
 table(for.hist2$Quan)
 
 #Display Histograms
-hist(for.hist$Quan, main = "Histogram of Total Customer Items", xlab = "Items", col = "hot pink")
-hist(for.hist2$Quan, main = "Histogram of Total Items per Ticket", xlab = "Number of Items", col = "hot pink")
+hist(for.hist$Quan, 
+     main = "Histogram of Total Items per Customer",
+     xlab = "Items", 
+     col = "hot pink")
+
+hist(for.hist2$Quan, 
+     main = "Histogram of Total Items per Ticket", 
+     xlab = "Number of Items", 
+     col = "hot pink")
 
 #Descriptive Stats
 
@@ -88,6 +86,45 @@ for.stat <- trans %>%
 
 summary(for.stat)
 
+
+### ------------------------------------------------------------ ###
+
+                  ### Do some dplyr stuff ###
+
+### ------------------------------------------------------------ ###
+
+
+#Some dplyr stuff
+
+dat <- trans %>% 
+  collect
+
+dat %>% 
+  count(vendor) %>% 
+  arrange(desc(n))
+
+dat %>% 
+  count(category)
+
+dat %>% 
+  count(vendor_desc) %>% 
+  group_by(vendor_desc) %>% 
+  arrange(desc(n)) %>% 
+  head(10) %>% 
+  kable()
+
+
+dat %>% 
+  select(vendor_desc, category_desc, quan_sold, quan_returned) %>% 
+  count(category_desc) %>% 
+  group_by(vendor_desc) %>% 
+  arrange(n, .by_group = TRUE) %>% 
+  top_n(10) %>% 
+  kable()
+
+
+  # Left off attempting to determine top and bottom 10 items by vendor for each category #
+  
 ## ------------------------------------------------------------ ##
 
                   # Acquire & Analyze Code #
@@ -201,6 +238,5 @@ plot_coefs(lm, scale = TRUE) +
   labs(x = "Estimated Coefficient") + 
   theme(plot.title = element_text(hjust = 0.5)) +
   ggtitle("Coefficients from Spend 2018 Model")
-
 
 

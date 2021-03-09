@@ -1,0 +1,86 @@
+---
+title: "Northstar Athletics Analysis"
+author: "Nikki Gabrielsen"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+pdf_document:
+  toc: true
+  toc_depth: 6
+  number_sections: false
+  fontsize: 12pt
+  geometry: margin=1in
+  toc_float: true
+  code_folding: hide
+  theme: flatly
+  code_download: true
+  citation_package: biblatex
+---
+
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE,
+                      fig.width=6, 
+                      fig.align = "center", 
+                      out.width = "70%", 
+                      warning=FALSE, 
+                      message=FALSE)
+
+library(tidyverse)
+library(DBI)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(kableExtra)
+  #group_rows is masked from dyplr#
+
+path.to.db <- paste0("C:\\Users\\Nikki\\Documents\\UM Spring 2021\\",
+                     "Capstone\\msba-capstone\\")
+
+# Creating the connection to the DB
+con <- dbConnect(RSQLite::SQLite(),
+                 dbname=paste0(path.to.db,"northstar_athletics.db"))
+
+# Listing the tables
+dbListTables(con)
+```
+
+
+
+``` {r}
+# Creating connection to the tables
+
+trans <- tbl(con, "master")
+
+#Some dplyr stuff
+
+dat <- trans %>% 
+  collect
+
+dat %>% 
+  count(vendor) %>% 
+  arrange(desc(n))
+
+dat %>% 
+  count(vendor_desc) %>% 
+  group_by(vendor_desc) %>% 
+  arrange(desc(n)) %>% 
+  head(10) %>% 
+  kable()
+
+```
+``` {r categories}
+
+
+dat %>% 
+  select(vendor_desc, category_desc, quan_sold, quan_returned) %>% 
+  count(category_desc) %>% 
+  group_by(vendor_desc) %>% 
+  arrange(n, .by_group = TRUE) %>% 
+  top_n(10) %>% 
+  kable()
+
+```
+
+
+
+
