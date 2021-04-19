@@ -1,5 +1,7 @@
 CREATE TABLE master ( 
-    date TEXT, 
+    date TEXT,
+	month TEXT,
+	year TEXT,
 	time TEXT,
     ticket_num INT,
     emp_num INT,

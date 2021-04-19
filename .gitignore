@@ -5,9 +5,24 @@ Sales Journal 2020/
 Sales Journal Jan 2020/
 
 # Ignore files
-Acquire_Analyze.R
 northstar_athletics_2.db
+northstar_athletics_test.db
 SALES ANALYSIS 2021.CSV
 SALES ANALYSIS.CSV
 SKU FILE 2021.CSV
 SKU FILE.CSV
+data_dictionary.docx
+master.csv
+master.xlsx
+sku_2021.CSV
+x.sql
+sales_analysis_2021.csv
+Create cat_year_month.sql
+Create master.sql
+Create vend_year_month.sql
+Fill cat_year_month.sql
+Fill master.sql
+Fill vend_year_month (dw).sql
+Parsing Sales Journals 2.0.0.ipynb
+Parsing Sales Journals 2.0 - Test.ipynb
+Parsing Sales Journals.ipynb

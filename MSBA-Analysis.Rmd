@@ -2,7 +2,7 @@
 title: "Northstar Athletics Analysis"
 author: "Nikki Gabrielsen"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-pdf_document:
+html_document:
   toc: true
   toc_depth: 6
   number_sections: false
@@ -19,7 +19,6 @@ pdf_document:
 ```{r setup, include=FALSE}
 
 knitr::opts_chunk$set(echo = TRUE,
-                      fig.width=6, 
                       fig.align = "center", 
                       out.width = "70%", 
                       warning=FALSE, 
@@ -28,6 +27,9 @@ knitr::opts_chunk$set(echo = TRUE,
 library(tidyverse)
 library(DBI)
 library(dplyr)
+library(lubridate)
+#The following objects are masked from �package:base�:
+  #date, intersect, setdiff, union#
 library(ggplot2)
 library(knitr)
 library(kableExtra)
@@ -44,43 +46,273 @@ con <- dbConnect(RSQLite::SQLite(),
 dbListTables(con)
 ```
 
+#Introduction
+
+#Overview
+
+#Data
+
+##Source
+
+<!-- image: ![alt text here](path-to-image-here) -->
+
+##Data Parsing  
+
+<!-- image: ![alt text here](path-to-image-here) -->
+
+##Variables
+
+##Exploratory Analysis
+
+#Research Questions
+
+#Analysis
+
+##Hypotheses
+
+##Methods
+
+##Results
+
+##Limitations
+
+#Insights and Recommendations
+
+#Appendix
+
+<!-- image: ![alt text here](path-to-image-here) -->
 
 
-``` {r}
+``` {r connect}
 # Creating connection to the tables
 
-trans <- tbl(con, "master")
+trans <- tbl(con, "transactions")
+sku_f <- tbl(con, "sku_2021")
+master <- tbl(con, "master")
+vend_ym <- tbl(con, "vend_year_month")
+cat_ym <- tbl(con, "cat_year_month")
 
-#Some dplyr stuff
+```
 
-dat <- trans %>% 
+``` {r descriptive_statistics}
+
+dat <- master %>% 
   collect
 
-dat %>% 
-  count(vendor) %>% 
-  arrange(desc(n))
+# Vendor descriptive statistics
+
+c <- dat %>% 
+  filter(vendor != "FREQ") %>% 
+  select(vendor) %>% 
+  group_by(vendor)
+
+dat <- dat %>% 
+  filter(vendor != "FREQ" &  
+           vendor != "KAHU" &
+           vendor != "KHOM" &
+           vendor != "LEAD" &
+           vendor !=  "MBT" &
+           vendor != "ONFI" &
+           vendor != "SLID" &
+           vendor != "SMIT" &
+           vendor != "TAPO" &
+           vendor != "UNDE" &
+           vendor_desc != "NOT FOUND")
+
+# Category descriptive statistics
+
+d <- dat %>% 
+  select(category_desc) %>% 
+  group_by(category_desc)
+
+# Colorblind palette for ggplot:
+
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
 
 dat %>% 
-  count(vendor_desc) %>% 
-  group_by(vendor_desc) %>% 
-  arrange(desc(n)) %>% 
-  head(10) %>% 
-  kable()
+  mutate(quarter = case_when(month %in% c("01","02","03") ~ "quarter_1",
+                             month %in% c("04","05","06") ~ "quarter_2",
+                             month %in% c("07","08","09") ~ "quarter_3",
+                             month %in% c("10","11","12") ~ "quarter_4")) %>% 
+  group_by(quarter,year) %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  ggplot() +
+  theme_bw() +
+  geom_col(aes(x = year, y = total_sold, fill = quarter, width = 0.7)) +
+  scale_y_continuous(name="Total Items Sold", labels = scales::comma) +
+  scale_fill_manual(values = cbPalette, labels = c("Quarter 1","Quarter 2","Quarter 3","Quarter 4")) +
+  xlab("Year") +
+  ggtitle("Total Item Sales \n 2008-2020") +
+  theme(plot.title = element_text(hjust=0.5)) +
+  guides(fill = guide_legend(title = "Quarter")) 
+
 
 ```
-``` {r categories}
 
+``` {r }
 
-dat %>% 
-  select(vendor_desc, category_desc, quan_sold, quan_returned) %>% 
-  count(category_desc) %>% 
-  group_by(vendor_desc) %>% 
-  arrange(n, .by_group = TRUE) %>% 
-  top_n(10) %>% 
-  kable()
+dat %>%
+  select(date, month, vendor, vendor_desc, quan_sold, quan_returned) %>% 
+  mutate(quarter = case_when(month %in% c("01","02","03") ~ "quarter_1",
+                             month %in% c("04","05","06") ~ "quarter_2",
+                             month %in% c("07","08","09") ~ "quarter_3",
+                             month %in% c("10","11","12") ~ "quarter_4")) %>% 
+  group_by(quarter,month) %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  ggplot() +
+  theme_bw() +
+  geom_col(aes(x = month, y = total_sold, width = 0.7)) +
+  scale_y_continuous(name="Total Items Sold", labels = scales::comma) +
+  scale_x_discrete(guide = guide_axis(n.dodge = 3), labels = c("January",
+                                                               "February",
+                                                               "March",
+                                                               "April",
+                                                               "May",
+                                                               "June",
+                                                               "July",
+                                                               "August",
+                                                               "September",
+                                                               "October",
+                                                               "November",
+                                                               "December")) +
+  scale_colour_manual(values=cbPalette) +
+  xlab("Month") +
+  ggtitle("Total Items Sold by Month \n 2008-2020") +
+  theme(plot.title = element_text(hjust=0.5))
+
+``` 
+
+There are `r n_distinct(c)` vendors in the database. Of those, `r n_distinct(dat$vendor)` are current vendors. There are `r n_distinct(d)` unique categories. 
+
+``` {r top 10 categories}
+
+# Top 10 Categories
+
+c_top10 <- dat %>% 
+  select(year,category, category_desc, vendor, vendor_desc, quan_sold, quan_returned) %>% 
+  filter(year %in% c("2016","2017","2018","2019","2020")) %>% 
+  group_by(category_desc)  %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  arrange(desc(total_sold)) %>% 
+  head(10) 
+
+c_top10 %>% 
+  ggplot() +
+  theme_bw() +
+  geom_col(aes(reorder(category_desc, total_sold), total_sold, stat = "identity", width = 0.7)) +
+  scale_y_continuous(name="Total Items Sold", labels = scales::comma, limits = c(0,7500)) +
+  scale_colour_manual(values=cbPalette) +
+  xlab("Category") +
+  ggtitle("Top 10 Categories \n 2016-2020") +
+  theme(plot.title = element_text(hjust=0.5)) + 
+  coord_flip()
 
 ```
 
+``` {r top 10 vendors}
 
+# Top 10 Vendors
+
+V_top10 <- dat %>% 
+  select(year,vendor, vendor_desc, quan_sold, quan_returned) %>% 
+  filter(year %in% c("2016","2017","2018","2019","2020")) %>% 
+  group_by(vendor_desc) %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  arrange(desc(total_sold)) %>% 
+  head(10)
+
+V_top10 %>% 
+  ggplot() +
+  theme_bw() +
+  geom_col(aes(reorder(vendor_desc, total_sold), total_sold, stat = "identity", width = 0.7)) +
+  scale_y_continuous(name="Total Items Sold", labels = scales::comma) +
+  scale_colour_manual(values=cbPalette) +
+  xlab("Vendor") +
+  ggtitle("Top 10 Vendors \n 2016-2020") +
+  theme(plot.title = element_text(hjust=0.5)) + 
+  coord_flip()
+
+``` 
+
+``` {r pass values}
+
+# Pass column values to vector 
+
+vtop10 <- as.vector(V_top10$vendor_desc)
+ctop10 <- as.vector(c_top10$category_desc)
+
+```
+
+``` {r top 10 category_vendor, fig.width=10, fig.height=5}
+
+# Top 10 by Category 
+dat %>% 
+  select(year,vendor, vendor_desc, category_desc, quan_sold, quan_returned) %>%
+  filter(vendor_desc %in% vtop10, 
+         category_desc %in% ctop10,
+         year %in% c("2016","2017","2018","2019","2020")) %>% 
+  group_by(category_desc, vendor_desc) %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  ggplot() +
+  theme_bw() +
+  geom_col(aes(reorder(category_desc,total_sold), total_sold, stat = "identity", fill = vendor_desc, width = 0.7)) +
+  scale_y_continuous(name="Total Items Sold", labels = scales::comma) +
+  scale_fill_manual(values=cbPalette) +
+  xlab("Category") +
+  ggtitle("Vendor Breakdown by Category") +
+  theme(plot.title = element_text(hjust=0.5)) +
+  guides(fill = guide_legend(title = "Vendor")) +
+  coord_flip()
+
+
+```
+
+``` {r top 10 by quarter}
+
+# Top 10 by Quarter
+
+
+dat %>%
+  select(year, date, month, vendor, vendor_desc, quan_sold, quan_returned) %>% 
+  mutate(quarter = case_when(month %in% c("01","02","03") ~ "quarter_1",
+                             month %in% c("04","05","06") ~ "quarter_2",
+                             month %in% c("07","08","09") ~ "quarter_3",
+                             month %in% c("10","11","12") ~ "quarter_4")) %>% 
+  filter(year %in% c("2016","2017","2018","2019","2020"),
+         vendor_desc %in% vtop10) %>%
+  group_by(quarter,vendor_desc) %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  ggplot() +
+  theme_bw() +
+  geom_col(aes(reorder(vendor_desc, total_sold), total_sold, stat = "identity", fill = quarter, width = 0.7)) +
+  scale_y_continuous(name="Total Items Sold", labels = scales::comma) +
+  scale_fill_manual(values=cbPalette, labels = c("Quarter 1","Quarter 2","Quarter 3","Quarter 4")) +
+  xlab("Vendor") +
+  ggtitle("Quarter Breakdown by Vendor \n 2016-2020") +
+  theme(plot.title = element_text(hjust=0.5)) +
+  guides(fill = guide_legend(title = "Quarter")) +
+  coord_flip()
+
+```
+``` {r linear model}
+
+lm_dat <- dat %>%
+  select(date, month, vendor, vendor_desc, quan_sold, quan_returned) %>% 
+  mutate(quarter = case_when(month %in% c("01","02","03") ~ "quarter_1",
+                             month %in% c("04","05","06") ~ "quarter_2",
+                             month %in% c("07","08","09") ~ "quarter_3",
+                             month %in% c("10","11","12") ~ "quarter_4")) %>% 
+  filter(dat$year %in% c("2016","2017","2018","2019","2020"), 
+         vendor_desc %in% vtop10) %>%
+  group_by(date,quarter,vendor_desc) %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  ungroup()
+  
+lm_1 <- lm(formula = total_sold ~ quarter * vendor_desc, data = lm_dat)
+
+summary(lm_1)
+
+```
 
 

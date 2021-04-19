@@ -1,5 +1,7 @@
 INSERT INTO master	
 	SELECT date,
+	strftime('%m', transactions.date) as month, 
+	strftime('%Y', transactions.date) as year, 
 	time,
 	ticket_num,
 	emp_num,

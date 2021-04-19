@@ -12,7 +12,7 @@ library(ggplot2)
 library(knitr)
 library(kableExtra)
   #group_rows is masked from dyplr#
-
+library(dotwhisker)
 #----#
 library(jtools)
 library(scales)
@@ -41,26 +41,115 @@ dbListTables(con)
 
 # Creating connection to the tables
 
-trans <- tbl(con, "master")
+trans <- tbl(con, "transactions")
+sku_f <- tbl(con, "sku_2021")
+master <- tbl(con, "master")
 vend_ym <- tbl(con, "vend_year_month")
 cat_ym <- tbl(con, "cat_year_month")
 
+dat <- master %>% 
+  collect
 
 
+dat %>% 
+  mutate(quarter = quarter(dat$date)) %>% 
+  filter(vendor != "FREQ" &  
+           vendor != "KAHU" &
+           vendor != "KHOM" &
+           vendor != "LEAD" &
+           vendor !=  "MBT" &
+           vendor != "ONFI" &
+           vendor != "SLID" &
+           vendor != "SMIT" &
+           vendor != "TAPO" &
+           vendor != "UNDE" &
+           vendor_desc != "NOT FOUND") %>% 
+  group_by(quarter,year) %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  ggplot() +
+  theme_minimal() +
+  geom_col(aes(x = year, y = total_sold, fill = quarter, width = 0.7)) +
+  scale_y_continuous(name="Total Items Sold", labels = scales::comma) +
+  xlab("Year") +
+  ggtitle("Total Item Sales \n 2008-2020") +
+  theme(plot.title = element_text(hjust=0.5)) +
+  guides(fill = guide_legend(title = "Quarter"))
+  
+??ggtitle  
 
+# Transactions descriptive stats
+
+a <- dat %>% 
+  select(ticket_num) %>% 
+  group_by(ticket_num) 
+
+n_distinct(aa)
+
+# Vendor descriptive stats
+
+
+b <- dat %>% 
+  filter(vendor != "FREQ") %>% 
+  select(vendor) %>% 
+  group_by(vendor)
+
+c <- dat %>% 
+  filter(vendor != "FREQ" &  
+           vendor != "KAHU" &
+           vendor != "KHOM" &
+           vendor != "LEAD" &
+           vendor !=  "MBT" &
+           vendor != "ONFI" &
+           vendor != "SLID" &
+           vendor != "SMIT" &
+           vendor != "TAPO" &
+           vendor != "UNDE" &
+           vendor_desc != "NOT FOUND") %>% 
+  select(vendor_desc) %>% 
+  group_by(vendor_desc)
+
+
+# Category descriptive statistics
+
+c <- dat %>% 
+  select(category) %>% 
+  group_by(category)
+
+n_distinct(c)
+
+
+# Number of tickets
+
+dat %>% 
+  select(ticket_num) %>% 
+  count()
+
+# Number of SKUs
+
+sku_f %>% 
+  select(sku) %>% 
+  count() 
 
 # Histogram - Number of Items per Customer
-for.hist <- trans %>% 
-  group_by(cust) %>% 
-  summarize(Quan = sum(quan_sold), Sales = sum(net_sale)) %>% 
-  filter(Sales > 0, Sales < 3000) %>% 
-  collect
+# for.hist <- dat %>% 
+#   group_by(cust) %>% 
+#   summarize(Quan = sum(quan_sold), Sales = sum(net_sale)) %>% 
+#   filter(Sales > 0, Sales < 3000) %>% 
+#   collect
 
 #Histogram - Number of Items per Ticket
-for.hist2 <- trans %>% 
+for.hist2 <- dat %>% 
   group_by(ticket_num) %>% 
-  summarize(Quan = sum(quan_sold)) %>% 
+  summarize(Quan = sum(quan_sold)) %>%
   collect
+
+for.hist2 %>% 
+  as_tibble()
+
+mean(for.hist2$Quan)
+sd(for.hist2$Quan)
+
+median(for.hist2$Quan)
 
 #Display Tables
 table(for.hist$Quan)
@@ -79,7 +168,7 @@ hist(for.hist2$Quan,
 
 #Descriptive Stats
 
-for.stat <- trans %>% 
+for.stat <- dat %>% 
   group_by(ticket_num) %>% 
   summarize(Quan = sum(quan_sold)) %>% 
   collect
@@ -89,154 +178,195 @@ summary(for.stat)
 
 ### ------------------------------------------------------------ ###
 
-                  ### Do some dplyr stuff ###
+                  ### Top & Bottom 10 ###
 
 ### ------------------------------------------------------------ ###
 
 
-#Some dplyr stuff
+# Top 10 Categories
 
-dat <- trans %>% 
-  collect
+c_top10 <- dat %>% 
+  select(category, category_desc, vendor, vendor_desc, quan_sold, quan_returned) %>% 
+  group_by(category_desc)  %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  arrange(desc(total_sold)) %>% 
+  head(10) 
+
+c_top10 %>% 
+  kable()
+
+# Top 10 Vendors
+
+V_top10 <- dat %>% 
+  select(vendor, vendor_desc, quan_sold, quan_returned) %>% 
+  group_by(vendor) %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  arrange(desc(total_sold)) %>% 
+  head(10)
+
+v_top10 %>% 
+  kable()
+
+# Pass column values to vector 
+
+top10 <- as.vector(V_top10$vendor)
+ctop10 <- as.vector(c_top10$category_desc)
+
+# Top 10 
+dat %>% 
+  select(vendor, vendor_desc, category_desc, quan_sold, quan_returned) %>%
+  filter(vendor %in% top10, 
+         category_desc %in% ctop10) %>% 
+  group_by(category_desc, vendor_desc) %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  ggplot() +
+  theme_bw() +
+  geom_col(aes(x = category_desc, y = total_sold, fill = vendor_desc, width = 0.7)) +
+  scale_y_continuous(name="Total Items Sold", labels = scales::comma) +
+  scale_x_discrete(guide = guide_axis(n.dodge = 3)) +
+  xlab("Category") +
+  ggtitle("[Insert Title]") +
+  theme(plot.title = element_text(hjust=0.5)) +
+  guides(fill = guide_legend(title = "Vendor"))
+
+# Bottom 10
+
 
 dat %>% 
-  count(vendor) %>% 
-  arrange(desc(n))
-
-dat %>% 
-  count(category)
-
-dat %>% 
-  count(vendor_desc) %>% 
+  filter(vendor != "FREQ" &  
+           vendor != "KAHU" &
+           vendor != "KHOM" &
+           vendor != "LEAD" &
+           vendor !=  "MBT" &
+           vendor != "ONFI" &
+           vendor != "SLID" &
+           vendor != "SMIT" &
+           vendor != "TAPO" &
+           vendor != "UNDE" &
+           vendor_desc != "NOT FOUND") %>%
   group_by(vendor_desc) %>% 
-  arrange(desc(n)) %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  arrange(total_sold) %>% 
+  head(10) %>% 
+  kable()
+
+bot10 <- dat %>% 
+  filter(vendor != "FREQ" &  
+           vendor != "KAHU" &
+           vendor != "KHOM" &
+           vendor != "LEAD" &
+           vendor !=  "MBT" &
+           vendor != "ONFI" &
+           vendor != "SLID" &
+           vendor != "SMIT" &
+           vendor != "TAPO" &
+           vendor != "UNDE" &
+           vendor_desc != "NOT FOUND") %>%
+  group_by(vendor_desc) %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  arrange(total_sold) %>% 
+  head(10) 
+
+
+  # Left off attempting to determine top and bottom 10 items by vendor for each category #
+
+dat %>% 
+  select(vendor, vendor_desc, category, category_desc, quan_sold, quan_returned) %>% 
+  filter(vendor != "FREQ" &  
+           vendor != "KAHU" &
+           vendor != "KHOM" &
+           vendor != "LEAD" &
+           vendor !=  "MBT" &
+           vendor != "ONFI" &
+           vendor != "SLID" &
+           vendor != "SMIT" &
+           vendor != "TAPO" &
+           vendor != "UNDE" &
+           vendor_desc != "NOT FOUND") %>% 
+  group_by(category_desc, vendor_desc) %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  arrange(total_sold) %>% 
   head(10) %>% 
   kable()
 
 
+### ------------------------------------------------------------ ###
+
+                   ### Split into periods ###
+
+### ------------------------------------------------------------ ###
+
+first <- dat %>% 
+  filter(month %in% c("01","02","03"))
+
+second <- dat %>% 
+  filter(month %in% c("04","05","06"))
+
+third <- dat %>% 
+  filter(month %in% c("07","08","09"))
+
+fourth <- dat %>% 
+  filter(month %in% c("10","11","12"))
+
+
+## Attempt at descriptive stats by period
+
 dat %>% 
-  select(vendor_desc, category_desc, quan_sold, quan_returned) %>% 
-  count(category_desc) %>% 
-  group_by(vendor_desc) %>% 
-  arrange(n, .by_group = TRUE) %>% 
-  top_n(10) %>% 
-  kable()
+  group_by(date) %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  ggplot(aes(x = date, y = total_sold)) +
+  geom_line()
+
+## Attempt at a linear model
+## Top 10 vendors
 
 
-  # Left off attempting to determine top and bottom 10 items by vendor for each category #
+lm_dat <- dat %>%
+  select(date, month, vendor, vendor_desc, quan_sold, quan_returned) %>% 
+  mutate(quarter = case_when(month %in% c("01","02","03") ~ "quarter_1",
+                             month %in% c("04","05","06") ~ "quarter_2",
+                             month %in% c("07","08","09") ~ "quarter_3",
+                             month %in% c("10","11","12") ~ "quarter_4")) %>% 
+  #this will be vendor %in% top10 ideally
+  filter(dat$year %in% c("2016","2017","2018","2019","2020"), 
+         vendor == "ADID" |
+           vendor == "DC" |
+           vendor == "KEEN" |
+           vendor == "NIKE" |
+           vendor == "ASIC" |
+           vendor == "ZEPH" |
+           vendor == "REEB" |
+           vendor == "MIZU" |
+           vendor == "NEWE" |
+           vendor == "TENS") %>%
+  group_by(date,quarter,vendor) %>% 
+  summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
+  ungroup()
   
-## ------------------------------------------------------------ ##
+  
+  
+lm_1 <- lm(formula = total_sold ~ quarter * vendor, data = lm_dat)
 
-                  # Acquire & Analyze Code #
-
-## ------------------------------------------------------------ ##
-
-# Creating connections to the table 
-## this one is for year_month
-cust.ym <- tbl(con, "cust_year_month")
-## this one is for total 
-cust.t <- tbl(con, "cust_year_month")
+lm_2 <- lm(formula = quan_sold ~ (quarter + vendor)^2, data = lm_dat)
 
 
-cust.t %>%
-  group_by(Customer)
+summary(lm_1) 
+summary(lm_2)
 
-# Preparing data for histogram of total spending by customers
-for.hist <- cust.t %>%
-  group_by(Customer) %>%
-  summarize(Sales = sum(Sales)) %>%
-  filter(Sales > 0, Sales < 3000) %>%
-  collect
-                               
-# Creating the histogram
-hist(for.hist$Sales, main = "Histogram of Total Customer Spending < $3,000", xlab = "Spend ($)", col = "gray", breaks = (seq(0,3000,100)),xaxt="n",yaxt="n")
+lm_2 %>% 
+  ggplot()
 
-#Formatting the axes
-axis(side=1, at=axTicks(1), 
-     labels=formatC(axTicks(1), format="d", big.mark=','))
+## Attempt at ANOVA
 
-axis(side=2, at=axTicks(2), 
-     labels=formatC(axTicks(2), format="d", big.mark=',')) 
+anova(lm_2, test="Chisq")
 
-summary(for.hist$Sales)
+arm::display(lm_1)
 
-# Preparing data for regression analysis
-cust.ym %>% 
-  group_by(Customer,Year) %>% 
-  summarize(Months=n_distinct(Month)) %>%
-  ungroup
+two.way <- aov(total_sold ~ quarter * vendor, data = lm_dat)
 
-for.model <- cust.ym %>% 
-  group_by(Customer,Year) %>% 
-  summarize(Sales = sum(Sales)) %>%
-  collect
+summary(two.way)
 
-for.model <- 
-  spread(for.model,key=Year,value=Sales) %>%
-  rename(year_2008 = `2008`, 
-         year_2009 = `2009`,
-         year_2010 = `2010`,
-         year_2011 = `2011`,
-         year_2012 = `2012`,
-         year_2013 = `2013`,
-         year_2014 = `2014`,
-         year_2015 = `2015`,
-         year_2016 = `2016`,
-         year_2017 = `2017`,
-         year_2018 = `2018`)
+mydata.cor <- lm_dat %>% 
+  cor(quarter, vendor_desc)
 
-for.model <-  for.model %>% 
-  replace(is.na(.), 0)
-
-#### removed avg_2015_2008 from model because it was not significant
-for.model <- for.model %>%
-  mutate(avg_2015_2008 = mean(c(year_2008,year_2009,year_2010,year_2011,year_2012,year_2013,year_2014,year_2015),na.rm=T))
-####
-
-# Create model for 2018 spend
-lm <- 
-  lm(year_2018 ~ year_2017 + year_2016,
-     data=for.model)
-
-
-summary(lm)
-
-#Filter outliers for scatterplots
-for.plot <- for.model %>%
-  filter(Customer != "EBAY -", Customer != "RICK -")
-
-#Set the theme for the scatterplots
-set_theme(
-  geom.outline.color = "antiquewhite4", 
-  base = theme_bw(),
-  title.size = 1.5, 
-)
-
-# Confirm correct coefficients
-lm$coefficients
-
-# Create scatterplot for 2016 vs 2018 spend
-ggplot(for.plot, aes(x = year_2016, y = year_2018)) + 
-  geom_point(alpha = 0.1) +
-  geom_abline(slope = lm$coefficients[3], intercept = lm$coefficients[1], col = "darkblue") +  
-  theme(plot.title = element_text(hjust = 0.5)) +
-  labs(title= "Customer Spend - 2016 vs 2018", x = "2016 Spend", y = "2018 Spend")
-
-
-# Create scatterplot for 2017 vs 2018 spend
-ggplot(for.plot, aes(x = year_2017, y = year_2018)) + 
-  geom_point(alpha = 0.1) +
-  geom_abline(slope = lm$coefficients[2], intercept = lm$coefficients[1], col = "darkblue") + 
-  theme(plot.title = element_text(hjust = 0.5)) +
-  labs(title= "Customer Spend - 2017 vs 2018", x = "2017 Spend", y = "2018 Spend")
-
-
-
-# Plot coefficients and their error bars
-plot_coefs(lm, scale = TRUE) + 
-  scale_y_discrete(labels = c('2016','2017')) +
-  labs(x = "Estimated Coefficient") + 
-  theme(plot.title = element_text(hjust = 0.5)) +
-  ggtitle("Coefficients from Spend 2018 Model")
-
-
+?cor()
