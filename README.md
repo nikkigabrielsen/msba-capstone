@@ -1,2 +1,2 @@
 # msba-capstone
-Repository for all MSBA personal projects
+Repository for MSBA capstone project
