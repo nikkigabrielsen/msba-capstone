@@ -1,4 +1,5 @@
 # Ignore complete folder
+.ipynb_checkpoints/
 Sales Journal Clean/
 Sales Journal 2020 Clean/
 Sales Journal 2020/
