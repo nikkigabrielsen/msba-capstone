@@ -46,42 +46,6 @@ con <- dbConnect(RSQLite::SQLite(),
 dbListTables(con)
 ```
 
-#Introduction
-
-#Overview
-
-#Data
-
-##Source
-
-<!-- image: ![alt text here](path-to-image-here) -->
-
-##Data Parsing  
-
-<!-- image: ![alt text here](path-to-image-here) -->
-
-##Variables
-
-##Exploratory Analysis
-
-#Research Questions
-
-#Analysis
-
-##Hypotheses
-
-##Methods
-
-##Results
-
-##Limitations
-
-#Insights and Recommendations
-
-#Appendix
-
-<!-- image: ![alt text here](path-to-image-here) -->
-
 
 ``` {r connect}
 # Creating connection to the tables
@@ -106,6 +70,7 @@ c <- dat %>%
   select(vendor) %>% 
   group_by(vendor)
 
+# Filter unused vendors
 dat <- dat %>% 
   filter(vendor != "FREQ" &  
            vendor != "KAHU" &
@@ -126,10 +91,9 @@ d <- dat %>%
   group_by(category_desc)
 
 # Colorblind palette for ggplot:
-
 cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
 
-
+# Plot total item sales by year and quarter 2008-2020 
 dat %>% 
   mutate(quarter = case_when(month %in% c("01","02","03") ~ "quarter_1",
                              month %in% c("04","05","06") ~ "quarter_2",
@@ -150,8 +114,9 @@ dat %>%
 
 ```
 
-``` {r }
+``` {r items_by_month}
 
+# Plot total items sold by month 2008-2020
 dat %>%
   select(date, month, vendor, vendor_desc, quan_sold, quan_returned) %>% 
   mutate(quarter = case_when(month %in% c("01","02","03") ~ "quarter_1",
@@ -185,10 +150,11 @@ dat %>%
 
 There are `r n_distinct(c)` vendors in the database. Of those, `r n_distinct(dat$vendor)` are current vendors. There are `r n_distinct(d)` unique categories. 
 
-``` {r top 10 categories}
+``` {r top_10_categories}
 
 # Top 10 Categories
 
+# Gather top 10 categories
 c_top10 <- dat %>% 
   select(year,category, category_desc, vendor, vendor_desc, quan_sold, quan_returned) %>% 
   filter(year %in% c("2016","2017","2018","2019","2020")) %>% 
@@ -197,6 +163,7 @@ c_top10 <- dat %>%
   arrange(desc(total_sold)) %>% 
   head(10) 
 
+# Plot top 10 categories
 c_top10 %>% 
   ggplot() +
   theme_bw() +
@@ -210,10 +177,11 @@ c_top10 %>%
 
 ```
 
-``` {r top 10 vendors}
+``` {r top_10_vendors}
 
 # Top 10 Vendors
 
+# Gather top 10 vendors
 V_top10 <- dat %>% 
   select(year,vendor, vendor_desc, quan_sold, quan_returned) %>% 
   filter(year %in% c("2016","2017","2018","2019","2020")) %>% 
@@ -222,6 +190,7 @@ V_top10 <- dat %>%
   arrange(desc(total_sold)) %>% 
   head(10)
 
+# Plot top 10 vendors
 V_top10 %>% 
   ggplot() +
   theme_bw() +
@@ -235,18 +204,17 @@ V_top10 %>%
 
 ``` 
 
-``` {r pass values}
+``` {r pass_values}
 
 # Pass column values to vector 
-
 vtop10 <- as.vector(V_top10$vendor_desc)
 ctop10 <- as.vector(c_top10$category_desc)
 
 ```
 
-``` {r top 10 category_vendor, fig.width=10, fig.height=5}
+``` {r top_10_category_vendor, fig.width=10, fig.height=5}
 
-# Top 10 by Category 
+# Plot vendor breakdown by category
 dat %>% 
   select(year,vendor, vendor_desc, category_desc, quan_sold, quan_returned) %>%
   filter(vendor_desc %in% vtop10, 
@@ -268,11 +236,11 @@ dat %>%
 
 ```
 
-``` {r top 10 by quarter}
+``` {r top_10_by_quarter}
 
 # Top 10 by Quarter
 
-
+# Plot vendor breakdown by quarter
 dat %>%
   select(year, date, month, vendor, vendor_desc, quan_sold, quan_returned) %>% 
   mutate(quarter = case_when(month %in% c("01","02","03") ~ "quarter_1",
@@ -295,8 +263,9 @@ dat %>%
   coord_flip()
 
 ```
-``` {r linear model}
+``` {r linear_model}
 
+# Filter and summarize data for modeling
 lm_dat <- dat %>%
   select(date, month, vendor, vendor_desc, quan_sold, quan_returned) %>% 
   mutate(quarter = case_when(month %in% c("01","02","03") ~ "quarter_1",
@@ -309,8 +278,10 @@ lm_dat <- dat %>%
   summarise(total_sold = sum(quan_sold) - sum(quan_returned)) %>% 
   ungroup()
   
+# Build the model 
 lm_1 <- lm(formula = total_sold ~ quarter * vendor_desc, data = lm_dat)
 
+# View model
 summary(lm_1)
 
 ```
